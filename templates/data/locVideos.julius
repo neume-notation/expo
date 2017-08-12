@@ -1,0 +1,277 @@
+{ "introduction":
+    { "webm":
+        { "coimbra":
+            { "en": "@{StaticR expo_video_en_intro_gc_webm}"
+            , "es": "@{StaticR expo_video_es_intro_gc_webm}"
+            , "pt": "@{StaticR expo_video_pt_intro_gc_webm}"
+            }
+        , "lamego":
+            { "en": "@{StaticR expo_video_en_intro_gc_webm}"
+            , "es": "@{StaticR expo_video_es_intro_gc_webm}"
+            , "pt": "@{StaticR expo_video_pt_intro_gc_webm}"
+            }
+        , "leon":
+            { "en": "@{StaticR expo_video_en_intro_l5_webm}"
+            , "es": "@{StaticR expo_video_es_intro_l5_webm}"
+            , "pt": "@{StaticR expo_video_pt_intro_l5_webm}"
+            }
+        , "madrid":
+            { "en": "@{StaticR expo_video_en_intro_gc_webm}"
+            , "es": "@{StaticR expo_video_es_intro_gc_webm}"
+            , "pt": "@{StaticR expo_video_pt_intro_gc_webm}"
+            }
+        }
+    , "mp4":
+        { "coimbra":
+            { "en": "@{StaticR expo_videoMp4_en_intro_gc_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_intro_gc_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_intro_gc_mp4}"
+            }
+        , "lamego":
+            { "en": "@{StaticR expo_videoMp4_en_intro_gc_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_intro_gc_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_intro_gc_mp4}"
+            }
+        , "leon":
+            { "en": "@{StaticR expo_videoMp4_en_intro_l5_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_intro_l5_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_intro_l5_mp4}"
+            }
+        , "madrid":
+            { "en": "@{StaticR expo_videoMp4_en_intro_gc_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_intro_gc_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_intro_gc_mp4}"
+            }
+        }
+    }
+, "codicology":
+    { "webm":
+        { "coimbra":
+            { "en": "@{StaticR expo_video_en_codex_ca_webm}"
+            , "es": "@{StaticR expo_video_es_codex_ca_webm}"
+            , "pt": "@{StaticR expo_video_pt_codex_ca_webm}"
+            }
+        , "lamego":
+            { "en": "@{StaticR expo_video_en_codex_lo_webm}"
+            , "es": "@{StaticR expo_video_es_codex_lo_webm}"
+            , "pt": "@{StaticR expo_video_pt_codex_lo_webm}"
+            }
+        , "leon":
+            { "en": "@{StaticR expo_video_en_codex_l5_webm}"
+            , "es": "@{StaticR expo_video_es_codex_l5_webm}"
+            , "pt": "@{StaticR expo_video_pt_codex_l5_webm}"
+            }
+        , "madrid":
+            { "en": "@{StaticR expo_video_en_codex_b1_webm}"
+            , "es": "@{StaticR expo_video_es_codex_b1_webm}"
+            , "pt": "@{StaticR expo_video_pt_codex_b1_webm}"
+            }
+        }
+    , "mp4":
+        { "coimbra":
+            { "en": "@{StaticR expo_videoMp4_en_codex_ca_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_codex_ca_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_codex_ca_mp4}"
+            }
+        , "lamego":
+            { "en": "@{StaticR expo_videoMp4_en_codex_lo_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_codex_lo_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_codex_lo_mp4}"
+            }
+        , "leon":
+            { "en": "@{StaticR expo_videoMp4_en_codex_l5_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_codex_l5_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_codex_l5_mp4}"
+            }
+        , "madrid":
+            { "en": "@{StaticR expo_videoMp4_en_codex_b1_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_codex_b1_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_codex_b1_mp4}"
+            }
+        }
+    }
+, "useofms":
+    { "webm":
+        { "coimbra":
+            { "en": "@{StaticR expo_video_en_useofms_ca_webm}"
+            , "es": "@{StaticR expo_video_es_useofms_ca_webm}"
+            , "pt": "@{StaticR expo_video_pt_useofms_ca_webm}"
+            }
+        , "lamego":
+            { "en": "@{StaticR expo_video_en_useofms_lo_webm}"
+            , "es": "@{StaticR expo_video_es_useofms_lo_webm}"
+            , "pt": "@{StaticR expo_video_pt_useofms_lo_webm}"
+            }
+        , "leon":
+            { "en": "@{StaticR expo_video_en_useofms_l5_webm}"
+            , "es": "@{StaticR expo_video_es_useofms_l5_webm}"
+            , "pt": "@{StaticR expo_video_pt_useofms_l5_webm}"
+            }
+        , "madrid":
+            { "en": "@{StaticR expo_video_en_useofms_b1_webm}"
+            , "es": "@{StaticR expo_video_es_useofms_b1_webm}"
+            , "pt": "@{StaticR expo_video_pt_useofms_b1_webm}"
+            }
+        }
+    , "mp4":
+        { "coimbra":
+            { "en": "@{StaticR expo_videoMp4_en_useofms_ca_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_useofms_ca_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_useofms_ca_mp4}"
+            }
+        , "lamego":
+            { "en": "@{StaticR expo_videoMp4_en_useofms_lo_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_useofms_lo_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_useofms_lo_mp4}"
+            }
+        , "leon":
+            { "en": "@{StaticR expo_videoMp4_en_useofms_l5_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_useofms_l5_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_useofms_l5_mp4}"
+            }
+        , "madrid":
+            { "en": "@{StaticR expo_videoMp4_en_useofms_b1_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_useofms_b1_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_useofms_b1_mp4}"
+            }
+        }
+    }
+, "cadence":
+    { "webm":
+        { "coimbra":
+            { "en": "@{StaticR expo_video_en_cadence_ca_webm}"
+            , "es": "@{StaticR expo_video_es_cadence_ca_webm}"
+            , "pt": "@{StaticR expo_video_pt_cadence_ca_webm}"
+            }
+        , "lamego":
+            { "en": "@{StaticR expo_video_en_cadence_lo_webm}"
+            , "es": "@{StaticR expo_video_es_cadence_lo_webm}"
+            , "pt": "@{StaticR expo_video_pt_cadence_lo_webm}"
+            }
+        , "leon":
+            { "en": "@{StaticR expo_video_en_cadence_l5_webm}"
+            , "es": "@{StaticR expo_video_es_cadence_l5_webm}"
+            , "pt": "@{StaticR expo_video_pt_cadence_l5_webm}"
+            }
+        , "madrid":
+            { "en": "@{StaticR expo_video_en_cadence_b1_webm}"
+            , "es": "@{StaticR expo_video_es_cadence_b1_webm}"
+            , "pt": "@{StaticR expo_video_pt_cadence_b1_webm}"
+            }
+        }
+    , "mp4":
+        { "coimbra":
+            { "en": "@{StaticR expo_videoMp4_en_cadence_ca_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_cadence_ca_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_cadence_ca_mp4}"
+            }
+        , "lamego":
+            { "en": "@{StaticR expo_videoMp4_en_cadence_lo_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_cadence_lo_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_cadence_lo_mp4}"
+            }
+        , "leon":
+            { "en": "@{StaticR expo_videoMp4_en_cadence_l5_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_cadence_l5_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_cadence_l5_mp4}"
+            }
+        , "madrid":
+            { "en": "@{StaticR expo_videoMp4_en_cadence_b1_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_cadence_b1_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_cadence_b1_mp4}"
+            }
+        }
+    }
+, "textbits":
+    { "webm":
+        { "coimbra":
+            { "en": "@{StaticR expo_video_en_textbits_ca_webm}"
+            , "es": "@{StaticR expo_video_es_textbits_ca_webm}"
+            , "pt": "@{StaticR expo_video_pt_textbits_ca_webm}"
+            }
+        , "lamego":
+            { "en": "@{StaticR expo_video_en_textbits_lo_webm}"
+            , "es": "@{StaticR expo_video_es_textbits_lo_webm}"
+            , "pt": "@{StaticR expo_video_pt_textbits_lo_webm}"
+            }
+        , "leon":
+            { "en": "@{StaticR expo_video_en_textbits_l5_webm}"
+            , "es": "@{StaticR expo_video_es_textbits_l5_webm}"
+            , "pt": "@{StaticR expo_video_pt_textbits_l5_webm}"
+            }
+        , "madrid":
+            { "en": "@{StaticR expo_video_en_textbits_b1_webm}"
+            , "es": "@{StaticR expo_video_es_textbits_b1_webm}"
+            , "pt": "@{StaticR expo_video_pt_textbits_b1_webm}"
+            }
+        }
+    , "mp4":
+        { "coimbra":
+            { "en": "@{StaticR expo_videoMp4_en_textbits_ca_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_textbits_ca_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_textbits_ca_mp4}"
+            }
+        , "lamego":
+            { "en": "@{StaticR expo_videoMp4_en_textbits_lo_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_textbits_lo_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_textbits_lo_mp4}"
+            }
+        , "leon":
+            { "en": "@{StaticR expo_videoMp4_en_textbits_l5_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_textbits_l5_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_textbits_l5_mp4}"
+            }
+        , "madrid":
+            { "en": "@{StaticR expo_videoMp4_en_textbits_b1_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_textbits_b1_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_textbits_b1_mp4}"
+            }
+        }
+    }
+, "textmore":
+    { "webm":
+        { "coimbra":
+            { "en": "@{StaticR expo_video_en_textmore_ca_webm}"
+            , "es": "@{StaticR expo_video_es_textmore_ca_webm}"
+            , "pt": "@{StaticR expo_video_pt_textmore_ca_webm}"
+            }
+        , "lamego":
+            { "en": "@{StaticR expo_video_en_textmore_lo_webm}"
+            , "es": "@{StaticR expo_video_es_textmore_lo_webm}"
+            , "pt": "@{StaticR expo_video_pt_textmore_lo_webm}"
+            }
+        , "leon":
+            { "en": "@{StaticR expo_video_en_textmore_l5_webm}"
+            , "es": "@{StaticR expo_video_es_textmore_l5_webm}"
+            , "pt": "@{StaticR expo_video_pt_textmore_l5_webm}"
+            }
+        , "madrid":
+            { "en": "@{StaticR expo_video_en_textmore_b1_webm}"
+            , "es": "@{StaticR expo_video_es_textmore_b1_webm}"
+            , "pt": "@{StaticR expo_video_pt_textmore_b1_webm}"
+            }
+        }
+    , "mp4":
+        { "coimbra":
+            { "en": "@{StaticR expo_videoMp4_en_textmore_ca_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_textmore_ca_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_textmore_ca_mp4}"
+            }
+        , "lamego":
+            { "en": "@{StaticR expo_videoMp4_en_textmore_lo_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_textmore_lo_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_textmore_lo_mp4}"
+            }
+        , "leon":
+            { "en": "@{StaticR expo_videoMp4_en_textmore_l5_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_textmore_l5_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_textmore_l5_mp4}"
+            }
+        , "madrid":
+            { "en": "@{StaticR expo_videoMp4_en_textmore_b1_mp4}"
+            , "es": "@{StaticR expo_videoMp4_es_textmore_b1_mp4}"
+            , "pt": "@{StaticR expo_videoMp4_pt_textmore_b1_mp4}"
+            }
+        }
+    }
+}

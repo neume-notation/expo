@@ -1,0 +1,15 @@
+{ "timings": [
+    { "name":   "talk-beginning",
+      "time":   0
+    }
+  , { "name":   "textmore-1",
+      "time":   35900
+    }
+  , { "name":   "textmore-begins",
+      "time":   47500
+    }
+  , { "name":   "textmore-2",
+      "time":   62800
+    }
+  ]
+}

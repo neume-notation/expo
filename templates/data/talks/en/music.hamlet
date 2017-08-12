@@ -1,0 +1,51 @@
+<section data-id="talk-beginning" class="text-position">
+  <p>Western musical notation has lots of features that you can recognise,
+    \ even if you don’t know how to read it. There’ll be a five line staff,
+    \ and a clef, which tells you which letter names go on which lines and in
+    \ which spaces. Also, western notation has precise rhythmic indications in
+    \ it. So: this note (
+    <img src="@{StaticR expo_img_crotchet_svg}" class="modern-note">)
+    \ is half as long as that note (
+    <img src="@{StaticR expo_img_minim_svg}" class="modern-note">).
+
+  <p>The notation you can see in the fragment is a distant ancestor of this
+    \ kind of western music notation. We don’t have clefs. We don’t have staff
+    \ lines, and we don’t have precise rhythmic indications. Instead, what we
+    \ have is musical notation written between the lines of the text in the
+    \ open space.
+
+<section data-id="music-up-down">
+  <p>Within each notational sign, the pen rises and falls on the page to
+    \ show the rise and fall of the melody. But it doesn’t tell us anything
+    \ precise about how far that melody rises and falls.
+
+  <p>
+    <span data-id="music-torculus">This
+    \ shape is a note, a higher note, and a lower note again, but it
+    \ could be any combination of a note, a higher note, and a lower note again
+    \ that you can imagine and sing.
+
+<section data-id="music-gaps">
+  <p>Sometimes each note gets its own penstroke. But very often two or more
+    \ notes are joined together in a single penstroke. And sometimes those
+    \ penstrokes are joined together to make compound notational shapes. #
+    <span data-id="music-compound">You
+    \ can see an example where three penstrokes are written close
+    \ together to make a combination of four rising notes.
+
+<section data-id="music-shape">
+  <p>Each combination of notes can be written in different ways: #
+    <span data-id="music-variety">with
+    \ straight lines and angles, with curves, or with gaps between the notes.
+    \ We don’t know precisely what all those different shapes mean, but we
+    \ think they might say something about rhythmic nuance. Perhaps the curved
+    \ ones are faster than the ones with the gaps or the ones with the angles.
+    \ But we don’t know for certain what it means. Whatever they mean, they
+    \ are very visually distinctive on the page, so we can spot patterns in
+    \ which shapes are used in which contexts.
+
+<section data-id="music-mnemonic">
+  <p>The main thing is that this notation is only any good if you already
+    \ know exactly how the melody goes. It was always a memory aid to help
+    \ singers remember which chant, and how to sing
+    \ it.

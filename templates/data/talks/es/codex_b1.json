@@ -1,0 +1,21 @@
+{ "timings": [
+    { "name":   "talk-beginning",
+      "time":   0
+    }
+  , { "name":   "codex-item1",
+      "time":   10500
+    }
+  , { "name":   "codex-item2",
+      "time":   20000
+    }
+  , { "name":   "codex-pre-gap",
+      "time":   27100
+    }
+  , { "name":   "codex-post-gap",
+      "time":   34200
+    }
+  , { "name":   "codex-stitching",
+      "time":   34201
+    }
+  ]
+}

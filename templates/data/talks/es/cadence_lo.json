@@ -1,0 +1,21 @@
+{ "timings": [
+    { "name":   "talk-beginning",
+      "time":   0
+    }
+  , { "name":   "cadence-final",
+      "time":   37698
+    }
+  , { "name":   "cadence-other",
+      "time":   37699
+    }
+  , { "name":   "cadence-find",
+      "time":   37700
+    }
+  , { "name":   "cadence-find-eg",
+      "time":   42300
+    }
+  , { "name":   "cadence-find-game",
+      "time":   69000
+    }
+  ]
+}

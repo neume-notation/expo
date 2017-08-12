@@ -1,0 +1,35 @@
+<div class="ceap-border">
+ <div class="ceap-outer">
+  <div class="row">
+
+    <div class="col-md-3">
+      <div class="ceap-col1">
+        <table class="neumeselector">
+          <tbody>
+            $forall (reading, neumes) <- neumeMenu
+              <tr>
+                <td>#{reading}
+                $forall neume <- neumes
+                  <td>
+                    <img class="neumeimage"
+                         src=@{neumeUrl neume}
+                         data-id="#{neumeId neume}"
+                         data-bbleft="#{neumeBBLeft neume}"
+                         data-melody="#{reading}"
+                         width="#{neumeWidth neume}"
+                         height="#{neumeHeight neume}">
+
+    <div class="col-md-9">
+      <div class="ceap-col2">
+        <div class="chantwords">
+          <p>#{textBox}
+        <div class="neumearea">
+          $forall (ChantSyl (ident, txt, music)) <- transcription
+            <div .chantsyllable
+                 :(>) (length music) 2:.widesyllable
+                 :(<=) (length music) 2:.narrowsyllable
+                 data-ident="#{ident}">
+              <div class="neumedrop">
+              <div class="chantsyllabletxt">
+                #{txt}
+              <div class="neumeborder">

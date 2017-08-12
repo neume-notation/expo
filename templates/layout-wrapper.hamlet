@@ -1,0 +1,146 @@
+\<!doctype html>
+\<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+\<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+\<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+\<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+  <head>
+    \<!--
+    \Site design, CSS, HTML and programming Copyright (c) 2017 University of Bristol.
+    \Pages delivered may include parts of third-party components:
+    \   Yesod Scaffold: MIT licence, Copyright (c) 2012-2017 Michael Snoyman, http://www.yesodweb.com/
+    \   Bootstrap: MIT licence, Copyright (c) 2011-2017 Twitter, Inc
+    \-->
+    <meta charset="UTF-8">
+
+    <title>#{pageTitle pc}
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <script src="@{StaticR js_jquery_3_1_1_min_js}">
+    $# Use the migrate plugin if any problem is suspected
+    $# <script src="@{StaticR js_jquery_migrate_3_0_0_js}">
+
+    <link type="text/css" rel="stylesheet" href="@{StaticR expo_css_merged_min_css}">
+    <script src="@{StaticR expo_js_bootstrap_min_js}">
+    <script src="@{StaticR expo_js_jquery_mousewheel_min_js}">
+    <script src="@{StaticR expo_js_jquery_mCustomScrollbar_min_js}">
+
+    $# jQuery UI and jquery.ui.touch-punch are needed *only* for the
+    $# TryCEAP activity
+    <link type="text/css" rel="stylesheet" href="static/css/overcast/jquery-ui-1.11.2.min.css">
+    <script src="static/js/jquery-ui-1.11.2.min.js"></script>
+    <script src="static/js/jquery.ui.touch-punch.min.js"></script>
+
+    $# In the stand-alone case, `homeHash` and `standAloneIdle` are defined
+    $# in expo/js/standalone_params.js, which is customised for the
+    $# particular installation.  (`standAloneIdle` is not used unless
+    $# standAlone - see below.)  `homeHash` is made available to Purescript
+    $# via Router.js, and is used in the Halogen code to return "home" - it
+    $# should start with the slash which will follow the hash sign in the
+    $# full URL.
+    $if standAlone
+      <script src="@{StaticR expo_js_standalone_params_js}">
+      <script src="@{StaticR expo_js_touchevents_js}">
+    $else
+      <script>
+        const mobilePage = "../small/index.html.var"
+        const homeHash = "/";
+        const standAloneFast = 999999;
+        if (typeof window.matchMedia !== 'undefined') {
+            function handleSizeChange (mq) {
+                if (mq.matches) {
+                    window.location.href = mobilePage;
+                }
+            }
+            $# These limits are intended to allow the full site on a laptop,
+            $# using a fairly large window, but allowing for title, menu etc.,
+            $# and taskbar.  Mobiles and all except the largest tablets will
+            $# be redirected unless already zoomed out.
+            mq = window.matchMedia ("(max-width: 1039px), (max-height: 584px)");
+            mq.addListener (handleSizeChange);
+            handleSizeChange (mq);
+        } else {
+            $# See http://stackoverflow.com/questions/3437786/get-the-size-of-the-screen-current-web-page-and-browser-window
+            function handleSizeChange () {
+                var w = window,
+                    d = document,
+                    e = d.documentElement,
+                    g = d.getElementsByTagName('body')[0],
+                    x = w.innerWidth || e.clientWidth || g.clientWidth,
+                    y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+                    if (x <= 1039 || y <= 584) {
+                        window.location.href = mobilePage;
+                    }
+            }
+            \$(window).resize (handleSizeChange);
+            handleSizeChange ();
+        }
+
+    <script>
+        $# Ensure buttons lose focus after being clicked to hide dotted outline.
+        $# This delegated event handler will see dynamically created buttons.
+        $# There may be some merit in using "mouseup" for this: see
+        $# http://stackoverflow.com/questions/19053181/how-to-remove-focus-around-buttons-on-click
+        \$(document).on ("click", "button", function () { $(this).blur(); });
+
+        $# This used on inactivity timeout below.  The existing state is
+        $# checked first in case the browser doesn't do a similar check!
+        function expoStartPage () {
+            var target = "@{ExpoR}#" + homeHash;
+            if (window.location.href != target) {
+                window.location.href = target;
+            }
+        }
+
+        $if standAlone
+          $# This section is included only for the exhibition installations,
+          $# and relies on standalone_params.js.  Set up an inactivity timer
+          $# which returns to the start page after `idleTimeout` seconds.
+          $# Note mousedown and click catch touchscreen presses and clicks.
+          $# To work around the fact that bubbling of wheel events is stopped
+          $# by either mCustomScrollbar or jquery_mousewheel, we trigger
+          $# "scroll" events on any ".talk-container" in narrative.js
+          \$(function () {
+            if (standAloneIdle > 0) {
+                var t;
+                var events = "mousemove mousedown touchstart click keypress";
+                \$(document).on (events, active);
+                \$(document).on ("scroll", ".talk-container", active);
+
+                function active () {
+                    clearTimeout (t);
+                    t = setTimeout (expoStartPage, standAloneIdle * 1000)
+                }
+                active();
+            }
+          });
+
+          $# Always force the start page at an exhibition site
+          expoStartPage ();
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    ^{pageHead pc}
+
+    \<!--[if lt IE 9]>
+    \<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    \<![endif]-->
+
+    <script>
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');
+  <body>
+    ^{pageBody pc}
+
+    $maybe analytics <- appAnalytics $ appSettings master
+      <script>
+        if(!window.location.href.match(/localhost/)){
+          window._gaq = [['_setAccount','#{analytics}'],['_trackPageview'],['_trackPageLoadTime']];
+          (function() {
+          \  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          \  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          \  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        }

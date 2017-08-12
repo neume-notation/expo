@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "old-hispanic-expo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output",
+    "dist"
+  ],
+  "dependencies": {
+    "purescript-console": "^3.0.0",
+    "purescript-halogen": "^2.0.0",
+    "purescript-routing": "^5.1.0",
+    "purescript-halogen-bootstrap": "^6.0.0",
+    "purescript-halogen-css": "^6.0.0",
+    "purescript-affjax": "^4.0.0",
+    "purescript-jquery": "^4.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^3.0.0"
+  }
+}

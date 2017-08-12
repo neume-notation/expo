@@ -1,0 +1,114 @@
+{ "timings": [
+    { "name":   "talk-beginning",
+      "time":   0
+    }
+  , { "name":   "textbits-eucharist",
+      "time":   7300
+    }
+  , { "name":   "textbits-post-nom",
+      "time":   13200
+    }
+  , { "name":   "textbits-ad-pacem",
+      "time":   17600
+    }
+  , { "name":   "textbits-more-eu",
+      "time":   21000
+    }
+  , { "name":   "textbits-1",
+      "time":   25000
+    }
+  , { "name":   "textbits-completuria",
+      "time":   29000
+    }
+  , { "name":   "textbits-pr",
+      "time":   33500
+    }
+  , { "name":   "textbits-bene",
+      "time":   39700
+    }
+  , { "name":   "textbits-vespers",
+      "time":   47300
+    }
+  , { "name":   "textbits-2",
+      "time":   55300
+    }
+  , { "name":   "textbits-ant",
+      "time":   60000
+    }
+  , { "name":   "textbits-ant-verse",
+      "time":   62200
+    }
+  , { "name":   "textbits-alleluia",
+      "time":   71300
+    }
+  , { "name":   "textbits-3",
+      "time":   75400
+    }
+  , { "name":   "textbits-adm",
+      "time":   76900
+    }
+  , { "name":   "textbits-chant1",
+      "time":   98600
+    }
+  , { "name":   "textbits-chant2",
+      "time":   100700
+    }
+  , { "name":   "textbits-chant3",
+      "time":   102500
+    }
+  , { "name":   "textbits-chant4",
+      "time":   105200
+    }
+  , { "name":   "textbits-2nd-vr",
+      "time":   114300
+    }
+  , { "name":   "textbits-2nd-adm",
+      "time":   122200
+    }
+  , { "name":   "textbits-4",
+      "time":   129700
+    }
+  , { "name":   "textbits-newbase",
+      "time":   139000
+    }
+  , { "name":   "textbits-canticle",
+      "time":   143000
+    }
+  , { "name":   "textbits-xmas-bene",
+      "time":   156400
+    }
+  , { "name":   "textbits-xmas-sono",
+      "time":   160000
+    }
+  , { "name":   "textbits-xmas-laudes",
+      "time":   164200
+    }
+  , { "name":   "textbits-xmas-hymn",
+      "time":   167500
+    }
+  , { "name":   "textbits-xacrostic",
+      "time":   175300
+    }
+  , { "name":   "textbits-5",
+      "time":   178000
+    }
+  , { "name":   "textbits-cont-hl",
+      "time":   178001
+    }
+  , { "name":   "textbits-xmas-completuria",
+      "time":   183000
+    }
+  , { "name":   "textbits-newbase2",
+      "time":   186700
+    }
+  , { "name":   "textbits-xmas-pr",
+      "time":   187300
+    }
+  , { "name":   "textbits-xmas-bene2",
+      "time":   193500
+    }
+  , { "name":   "textbits-decorated",
+      "time":   202000
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{ "timings": [
+    { "name":   "talk-beginning",
+      "time":   0
+    }
+  , { "name":   "useofms-use1",
+      "time":   26800
+    }
+  , { "name":   "useofms-chant",
+      "time":   29200
+    }
+  , { "name":   "useofms-prayer",
+      "time":   30000
+    }
+  , { "name":   "useofms-reading",
+      "time":   30001
+    }
+  , { "name":   "useofms-add1",
+      "time":   50500
+    }
+  , { "name":   "useofms-add2",
+      "time":   58500
+    }
+  , { "name":   "useofms-marks",
+      "time":   58501
+    }
+  , { "name":   "useofms-use2",
+      "time":   65200
+    }
+  , { "name":   "useofms-add-ext",
+      "time":   68000
+    }
+  ]
+}

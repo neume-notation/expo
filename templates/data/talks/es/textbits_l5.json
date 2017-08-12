@@ -1,0 +1,36 @@
+{ "timings": [
+    { "name":   "talk-beginning",
+      "time":   0
+    }
+  , { "name":   "textbits-hl-pr",
+      "time":   17000
+    }
+  , { "name":   "textbits-1",
+      "time":   21300
+    }
+  , { "name":   "textbits-hl-pr-cont",
+      "time":   21301
+    }
+  , { "name":   "textbits-newbase",
+      "time":   26900
+    }
+  , { "name":   "textbits-amen",
+      "time":   33200
+    }
+  , { "name":   "textbits-respond",
+      "time":   53300
+    }
+  , { "name":   "textbits-verse",
+      "time":   56400
+    }
+  , { "name":   "textbits-repeat",
+      "time":   65500
+    }
+  , { "name":   "textbits-2",
+      "time":   72100
+    }
+  , { "name":   "textbits-prayer",
+      "time":   75400
+    }
+  ]
+}

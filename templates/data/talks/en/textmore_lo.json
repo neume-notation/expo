@@ -1,0 +1,27 @@
+{ "timings": [
+    { "name":   "talk-beginning",
+      "time":   0
+    }
+  , { "name":   "textmore-iii",
+      "time":   24500
+    }
+  , { "name":   "textmore-1",
+      "time":   41700
+    }
+  , { "name":   "textmore-2",
+      "time":   77500
+    }
+  , { "name":   "textmore-3",
+      "time":   104600
+    }
+  , { "name":   "textmore-exult",
+      "time":   112100
+    }
+  , { "name":   "textmore-laus",
+      "time":   127100
+    }
+  , { "name":   "textmore-margin",
+      "time":   131100
+    }
+  ]
+}

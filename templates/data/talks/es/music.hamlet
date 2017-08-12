@@ -1,0 +1,53 @@
+<section data-id="talk-beginning" class="text-position">
+  <p>Todos conocemos las características de la notación musical de Occidente
+     \ que usamos hoy. Tiene un pentagrama con cinco líneas. Al inicio del
+     \ pentagrama hay una clave. La clave indica los nombres de las notas
+     \ en cada línea y en cada espacio. Además, cada nota contiene
+     \ información sobre su preciso valor rítmico. Por ejemplo, esta nota (
+     <img src="@{StaticR expo_img_minim_svg}" class="modern-note">)
+     \ dura el doble que esta otra nota (
+     <img src="@{StaticR expo_img_crotchet_svg}" class="modern-note">).
+
+  <p>La notación musical medieval que hay en el fragmento es una
+     \ antecesora de la notación musical de Occidente actual: no tiene
+     \ pentagramas, ni clave, y no parece indicar ningún ritmo preciso.
+     \ La notación medieval se escribe en el espacio disponible entre
+     \ los textos.
+
+<section data-id="music-up-down">
+  <p>Dentro de cada signo, el trazo asciende o desciende imitando els
+     \ ascenso o el descenso de los sonidos. Por ejemplo, #
+     <span data-id="music-torculus">esta
+     \ nota tiene un primer trazo y luego otro que asciende. Es decir,
+     \ podría estar representando cualquiera de las siguientes opciones:
+     \ Re-Mi o Re-Fa o Re-La, o cualquier otro intervalo de dos notas
+     \ ascendentes. Es decir, este tipo de notación nos indica que hay
+     \ una nota que está seguida de otra más aguda, pero no especifica
+     \ el intervalo ni las notas implicadas. 
+
+<section data-id="music-gaps">
+  <p>En este tipo de notación musical algunas notas se representan con
+     \ trazos #
+     <span data-id="music-compound">independientes.
+     \ Por ejemplo: esto es una nota, y esto es
+     \ otra nota. También las notas se pueden agrupar en un mismo signo.
+     \ Por ejemplo, este signo tiene dos notas: agrupa un trazo como éste
+     \ y un trazo como éste. Sin embargo, podemos también representar
+     \ dos notas con otro tipo de trazo. Este signo también tiene dos
+     \ notas, pero estas notas están unidas con una curva. Y luego,
+     \ éste es otro signo que contiene dos notas, pero su conexión
+     \ tiene este espacio.
+
+<section data-id="music-shape">
+  <p>Puede que estas #
+    <span data-id="music-variety">diferentes
+    \ formas de agrupar las notas indicasen más información sobre cómo
+    \ se hacía su música. Puede que estén dando información sobre el
+    \ ritmo, por ejemplo. Es decir, quizás un tipo de trazo indicaba
+    \ notas más rápidas que otro tipo de trazo. 
+
+<section data-id="music-mnemonic">
+  <p>Los cantantes medievales memorizaban las melodías. Los códices con
+     \ este tipo de notación musical normalmente se utilizaban como libros
+     \ de consulta. Los diferentes signos y grupos de notas ayudaban a
+     \ recordar las melodías diferentes.

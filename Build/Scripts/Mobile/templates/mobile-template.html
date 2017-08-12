@@ -1,0 +1,132 @@
+{{! This is a handlebars template for the static pages delivered to users
+    with small screens.  The individual pages are produced by program
+    in Build/Mobile
+}}
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="{{language}}"> <!--<![endif]--><head><!--
+Site design, CSS, HTML and programming Copyright (c) 2012-2017 University of Bristol.
+Pages delivered may include parts of third-party components:
+   Yesod Scaffold: MIT licence, Copyright (c) 2012 Michael Snoyman, http://www.yesodweb.com/
+   Bootstrap: MIT licence, Copyright (c) 2011-2016 Twitter, Inc
+   CSS snippets: open source from multiple places including Peter Nederlof (http://peterned.home.xs4all.nl/) and Paul Rouse (http://www.doynton.org).
+-->
+<meta charset="UTF-8">
+<title>{{site.title}}</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script src="../full/static/js/jquery-3.1.1.min.js"></script>
+<link type="text/css" rel="stylesheet" href="../full/static/expo/css/small.min.css">
+<script src="../full/static/expo/js/bootstrap.min.js"></script>
+<link rel="shortcut icon" href="/favicon.ico">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');</script>
+<style>
+/* Override standard style sheet */
+html, body {
+    height: auto;
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+    overflow: auto;
+}
+</style>
+<script>
+const fullPage = "../full/#/choice/{{language}}"
+{{! This is a mirror image of the tests in the full site, but note that there
+    is some hysteresis to avoid too much jumping around near the thresholds.
+    Also, the test here uses exactly the same mechanisms as the full site,
+    to avoid circularity which might be caused by inconsistent decisions.
+}}
+    if (typeof window.matchMedia !== 'undefined') {
+        function handleSizeChange (mq) {
+            if (mq.matches) {
+                window.location.href = fullPage;
+            }
+        }
+        mq = window.matchMedia ("(min-width: 1065px) and (min-height: 600px)");
+        mq.addListener (handleSizeChange);
+        handleSizeChange (mq);
+    } else {
+        function handleSizeChange () {
+            var w = window,
+                d = document,
+                e = d.documentElement,
+                g = d.getElementsByTagName('body')[0],
+                x = w.innerWidth || e.clientWidth || g.clientWidth,
+                y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+                if (x >= 1065 && y >= 600) {
+                    window.location.href = fullPage;
+                }
+        }
+        $(window).resize (handleSizeChange);
+        handleSizeChange ();
+    }
+</script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#expo-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="nav-flags">
+        <div class="nav-flag-button" onclick="window.location.assign('{{myself.es}}');">
+          <div class="nav-flag-es"></div>
+        </div>
+        <div class="nav-flag-button" onclick="window.location.assign('{{myself.pt}}');">
+          <div class="nav-flag-pt"></div>
+        </div>
+        <div class="nav-flag-button" onclick="window.location.assign('{{myself.en}}');">
+          <div class="nav-flag-en"></div>
+        </div>
+      </div>
+      <a class="navbar-brand" href="{{site.home}}"><span class="brand-text">{{site.brand}}</span></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="expo-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li {{#if menu.intro.active}}class="active"{{/if}}><a href="{{menu.intro.url}}">{{menu.intro.name}}</a></li>
+        <li {{#if menu.music.active}}class="active"{{/if}}><a href="{{menu.music.url}}">{{menu.music.name}}</a></li>
+        {{#each menu.msmenu}}
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{this.msName}} <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li {{#if this.images.active}}class="active"{{/if}}><a href="{{this.images.url}}">{{this.images.name}}</a></li>
+              <li {{#if this.codex.active}}class="active"{{/if}}><a href="{{this.codex.url}}">{{this.codex.name}}</a></li>
+              <li {{#if this.useofms.active}}class="active"{{/if}}><a href="{{this.useofms.url}}">{{this.useofms.name}}</a></li>
+              <li role="separator" class="divider"></li>
+              <li {{#if this.textmore.active}}class="active"{{/if}}><a href="{{this.textmore.url}}">{{this.textmore.name}}</a></li>
+              <li {{#if this.textbits.active}}class="active"{{/if}}><a href="{{this.textbits.url}}">{{this.textbits.name}}</a></li>
+            </ul>
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12">
+      <div id="main" role="main">
+        {{{content}}}
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+{ "timings": [
+    { "name":   "talk-beginning",
+      "time":   0
+    }
+  , { "name":   "music-up-down",
+      "time":   88200
+    }
+  , { "name":   "music-torculus",
+      "time":   98000
+    }
+  , { "name":   "music-gaps",
+      "time":   133500
+    }
+  , { "name":   "music-compound",
+      "time":   151000
+    }
+  , { "name":   "music-shape",
+      "time":   186900
+    }
+  , { "name":   "music-variety",
+      "time":   188400
+    }
+  , { "name":   "music-mnemonic",
+      "time":   206450
+    }
+  ]
+}

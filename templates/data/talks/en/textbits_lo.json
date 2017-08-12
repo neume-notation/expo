@@ -1,0 +1,39 @@
+{ "timings": [
+    { "name":   "talk-beginning",
+      "time":   0
+    }
+  , { "name":   "textbits-1",
+      "time":   18750
+    }
+  , { "name":   "textbits-gospel",
+      "time":   19750
+    }
+  , { "name":   "textbits-praise",
+      "time":   26000
+    }
+  , { "name":   "textbits-scr",
+      "time":   29000
+    }
+  , { "name":   "textbits-2",
+      "time":   48500
+    }
+  , { "name":   "textbits-newbase",
+      "time":   64200
+    }
+  , { "name":   "textbits-sono",
+      "time":   65400
+    }
+  , { "name":   "textbits-un-sono",
+      "time":   75999
+    }
+  , { "name":   "textbits-laudate",
+      "time":   76000
+    }
+  , { "name":   "textbits-un-laudate",
+      "time":   79699
+    }
+  , { "name":   "textbits-lectio",
+      "time":   79700
+    }
+  ]
+}

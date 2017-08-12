@@ -1,0 +1,103 @@
+{ "mag_glass":
+    { "coimbra": "@{StaticR expo_img_front_page_coimbra_png}"
+    , "lamego":  "@{StaticR expo_img_front_page_lamego_png}"
+    , "leon":    "@{StaticR expo_img_front_page_leon5_png}"
+    , "madrid":  "@{StaticR expo_img_front_page_bn01_png}"
+    }
+, "choose_loc":
+    { "coimbra": "@{StaticR expo_img_front_choice_coimbra_png}"
+    , "lamego":  "@{StaticR expo_img_front_choice_lamego_png}"
+    , "leon":    "@{StaticR expo_img_front_choice_leon5_png}"
+    , "madrid":  "@{StaticR expo_img_front_choice_bn01_png}"
+    }
+, "iberia":
+    { "coimbra": "@{StaticR expo_img_iberia_png}"
+    , "lamego":  "@{StaticR expo_img_iberia_png}"
+    , "leon":    "@{StaticR expo_img_iberia_png}"
+    , "madrid":  "@{StaticR expo_img_iberia_png}"
+    }
+, "intro_ms":
+    { "coimbra": "@{StaticR expo_img_intro_ca_intro_ms_jpg}"
+    , "lamego":  "@{StaticR expo_img_intro_lo_intro_ms_jpg}"
+    , "leon":    "@{StaticR expo_img_intro_l5_intro_ms_jpg}"
+    , "madrid":  "@{StaticR expo_img_intro_b1_intro_ms_jpg}"
+    }
+, "intro_phrases":
+    { "coimbra": "@{StaticR expo_img_intro_phrases_jpg}"
+    , "lamego":  "@{StaticR expo_img_intro_phrases_jpg}"
+    , "leon":    "@{StaticR expo_img_intro_phrases_jpg}"
+    , "madrid":  "@{StaticR expo_img_intro_phrases_jpg}"
+    }
+, "music_ms":
+    { "coimbra": "@{StaticR expo_img_music_ca_music_ms_jpg}"
+    , "lamego":  "@{StaticR expo_img_music_lo_music_ms_jpg}"
+    , "leon":    "@{StaticR expo_img_music_l5_music_ms_jpg}"
+    , "madrid":  "@{StaticR expo_img_music_b1_music_ms_jpg}"
+    }
+, "cadence_ms":
+    { "coimbra": "@{StaticR expo_img_cadence_ca_cadence_ms_jpg}"
+    , "lamego":  "@{StaticR expo_img_cadence_lo_cadence_ms_jpg}"
+    , "leon":    "@{StaticR expo_img_cadence_l5_cadence_ms_jpg}"
+    , "madrid":  "@{StaticR expo_img_cadence_b1_cadence_ms_jpg}"
+    }
+, "cadence_ms_game":
+    { "coimbra": "@{StaticR expo_img_cadence_ca_cadence_ms_jpg}"
+    , "lamego":  "@{StaticR expo_img_cadence_lo_cadence_ms_jpg}"
+    , "leon":    "@{StaticR expo_img_cadence_l5_cadence_ms_jpg}"
+    , "madrid":  "@{StaticR expo_img_cadence_b1_cadence_ms_game_jpg}"
+    }
+, "codex_ms":
+    { "coimbra": "@{StaticR expo_img_intro_ca_intro_ms_jpg}"
+    , "lamego":  "@{StaticR expo_img_codex_lo_codex_ms_jpg}"
+    , "leon":    "@{StaticR expo_img_intro_l5_intro_ms_jpg}"
+    , "madrid":  "@{StaticR expo_img_codex_b1_codex_ms_jpg}"
+    }
+, "useofms_ms1":
+    { "coimbra": "@{StaticR expo_img_useofms_ca_useofms_ms_jpg}"
+    , "lamego":  "@{StaticR expo_img_intro_lo_intro_ms_jpg}"
+    , "leon":    "@{StaticR expo_img_intro_l5_intro_ms_jpg}"
+    , "madrid":  "@{StaticR expo_img_useofms_b1_useofms_ms1_jpg}"
+    }
+, "useofms_ms2":
+    { "coimbra": "@{StaticR expo_img_useofms_ca_useofms_ms_jpg}"
+    , "lamego":  "@{StaticR expo_img_intro_lo_intro_ms_jpg}"
+    , "leon":    "@{StaticR expo_img_intro_l5_intro_ms_jpg}"
+    , "madrid":  "@{StaticR expo_img_useofms_b1_useofms_ms2_jpg}"
+    }
+, "textbits_ms1":
+    { "coimbra": "@{StaticR expo_img_intro_ca_intro_ms_jpg}"
+    , "lamego":  "@{StaticR expo_img_textbits_lo_textbits_ms_av_br_right_jpg}"
+    , "leon":    "@{StaticR expo_img_textbits_l5_textbits_ms_jpg}"
+    , "madrid":  "@{StaticR expo_img_textbits_b1_textbits_ms_1r_jpg}"
+    }
+, "textbits_ms2":
+    { "coimbra": "@{StaticR expo_img_useofms_ca_useofms_ms_jpg}"
+    , "lamego":  "@{StaticR expo_img_textbits_lo_textbits_ms_br_jpg}"
+    , "leon":    "@{StaticR expo_img_intro_l5_intro_ms_jpg}"
+    , "madrid":  "@{StaticR expo_img_intro_b1_intro_ms_jpg}"
+    }
+, "textbits_ms3":
+    { "coimbra": "@{StaticR expo_img_intro_ca_intro_ms_jpg}"
+    , "lamego":  "@{StaticR expo_img_textbits_lo_textbits_ms_av_br_left_jpg}"
+    , "leon":    "@{StaticR expo_img_intro_l5_intro_ms_jpg}"
+    , "madrid":  "@{StaticR expo_img_useofms_b1_useofms_ms1_jpg}"
+    }
+, "textbits_ms4":
+    { "coimbra": "@{StaticR expo_img_intro_ca_intro_ms_jpg}"
+    , "lamego":  "@{StaticR expo_img_intro_lo_intro_ms_jpg}"
+    , "leon":    "@{StaticR expo_img_intro_l5_intro_ms_jpg}"
+    , "madrid":  "@{StaticR expo_img_useofms_b1_useofms_ms2_jpg}"
+    }
+, "textmore_ms1":
+    { "coimbra": "@{StaticR expo_img_textmore_ca_textmore_ms_jpg}"
+    , "lamego":  "@{StaticR expo_img_textmore_lo_textmore_ms_sono_jpg}"
+    , "leon":    "@{StaticR expo_img_textmore_l5_textmore_ms_jpg}"
+    , "madrid":  "@{StaticR expo_img_intro_b1_intro_ms_jpg}"
+    }
+, "textmore_ms2":
+    { "coimbra": "@{StaticR expo_img_intro_ca_intro_ms_jpg}"
+    , "lamego":  "@{StaticR expo_img_textmore_lo_textmore_ms_laudate_jpg}"
+    , "leon":    "@{StaticR expo_img_intro_l5_intro_ms_jpg}"
+    , "madrid":  "@{StaticR expo_img_textmore_b1_textmore_ms_prope_jpg}"
+    }
+}

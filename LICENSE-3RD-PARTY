@@ -1,0 +1,14 @@
+Some files are included here for convenience, but are copied or derived from
+the following projects.  They contain their own copyright notice and licence
+information.
+
+    - Bootstrap (http://getbootstrap.com/)
+    - jQuery (https://jquery.com/)
+    - jQuery UI (http://jqueryui.com/)
+    - jQuery UI Touch Punch (http://touchpunch.furf.com/)
+    - jQuery Mousewheel (https://plugins.jquery.com/mousewheel/)
+    - jQuery custom content scroller (http://manos.malihu.gr/jquery-custom-content-scroller)
+
+All other files in this repository are Copyright (c) 2017, University of
+Bristol, and are released under the BSD-3-Clause licence contained in the
+LICENSE file.

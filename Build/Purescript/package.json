@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "NODE_PATH=\"$(pwd)/src/JSModules:$NODE_PATH\" pulp browserify --optimise --to dist/expo.js; minify dist/expo.js",
+    "watch": "NODE_PATH=\"$(pwd)/src/JSModules:$NODE_PATH\" pulp -w browserify --to dist/expo.js; minify dist/expo.js",
+    "clean": "rm -rf bower_components node_modules output .psci_modules .pulp-cache dist/expo.js dist/expo.min.js"
+  },
+  "devDependencies": {
+    "pulp": "^11.0.0",
+    "purescript": "^0.11.0",
+    "purescript-psa": "^0.5.0"
+  }
+}

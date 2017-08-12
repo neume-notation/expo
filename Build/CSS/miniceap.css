@@ -1,0 +1,130 @@
+/* Author: Paul Rouse
+ * Copyright 2017 University of Bristol
+ * Licensed under BSD-3-Clause - see the LICENSE file or http://opensource.org
+ */
+
+/* This CSS is specific to the TryCEAP example.
+ *
+ * It has been derived from the full CEAP CSS, so if ever we wanted to pull
+ * a fuller subset of CEAP into this exhibition software, name conflicts
+ * with the full CEAP CSS (including lucius templates) would need to be
+ * resolved.
+ */
+
+.ceap-border {
+    border: 2px solid #aaa;
+}
+
+.ceap-outer {
+    position: relative;
+    box-sizing: content-box;
+    background: #eee;
+    height: 700px;
+}
+
+.ceap-col1 {
+    height: 700px;
+    width: 115%;
+}
+
+table.neumeselector {
+    border: none;
+    color: #000;
+}
+table.neumeselector td {
+    padding: 5px;
+}
+table.neumeselector td img {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+table.neumeselector td img:hover, table.neumeselector td img:active {
+    background-color: #fff;
+}
+
+.ceap-col2 {
+    background: #fff;
+    border-left: 2px solid #aaa;
+}
+
+.chantwords {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding: 5px 10px 5px 10px;
+    color: #000;
+    overflow: hidden;
+    border-bottom: 2px solid #aaa;
+}
+
+.neumeimage {
+    z-index: 10;            /* Above neumearea and neumedrop */
+}
+
+.neumearea {
+    box-sizing: border-box;
+    background-image: url('../img/tryceap/msbg.jpg');
+    padding: 20px 0 10px 10px;
+    overflow: hidden;
+    height: 650px;          /* Fixed height */
+}
+
+.chantsyllable {
+    position: relative;
+    display: inline-block;    /* These boxes flow in the available area */
+    background: transparent;
+    margin: 0 0 10px 0;
+    height: 175px;
+}
+
+.narrowsyllable {
+    width: 85px;
+}
+.widesyllable {
+    width: 180px;
+}
+
+/* The border is inside the .neumedrop by a small margin so that setting
+ * the droppable tolerance to "fit" does not appear too strict.  The margin
+ * needs to be enough to prevent the feeling that a reasonable drop "hasn't
+ * taken", caused by each image having about 5px blank around its bounding
+ * box, but the precise amount is whatever gives the right feel.
+ */
+.neumeborder {
+    position: absolute;
+    left: 8px;           /* Set all positions, so as to define the width  */
+    right: 8px;          /* and height in relation to the container, with */
+    top: 8px;            /* a margin all round                            */
+    bottom: 8px;
+    border: 1px solid #c3ad61;
+}
+
+.neumedrop {
+    position: absolute;  /* We'll position dropped neumes relative to this */
+    left: 0;             /* Fill the parent .chantsyllable */
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 0;
+    margin: 0;
+    z-index: 4;          /* Make sure it's in front of .chantsyllabletxt but
+                            behind header menu */
+}
+
+.chantsyllabletxt {
+    position: absolute;
+    left: 8px;           /* Match left and right of .neumeborder */
+    right: 8px;
+    bottom: 20px;        /* Display behind  neumedrop (see z-index above) */
+    border: 0;
+    background-color: rgba(255,255,255,0.3);
+    padding: 0 5px 2px 5px;
+    height: 16px;        /* Total is 20px with our top and bottom padding */
+    color: #000;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.marked-bad {
+    background-color: rgba(255,0,0,0.3);
+};

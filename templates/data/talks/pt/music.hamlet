@@ -1,0 +1,44 @@
+<section data-id="talk-beginning" class="text-position">
+  <p>A notação da música ocidental tem características que quase todos
+    \ nós reconhecemos, mesmo que não saibamos como ler. A partitura tem
+    \ linhas suplementares, clave, para informar os nomes das notas que
+    \ ficam nas linhas e nos espaços e notas com valores rítmicos precisos.
+    \ Esta nota (
+    <img src="@{StaticR expo_img_minim_svg}" class="modern-note">)
+    \ por exemplo, dura mais do que esta (
+    <img src="@{StaticR expo_img_crotchet_svg}" class="modern-note">). 
+
+  <p>O tipo de notação que se pode ver neste manuscrito é um antepassado
+    \ distante da notação musical ocidental contemporânea. Porém, não tem
+    \ linhas suplementares e nem clave, e também nenhum ritmo preciso.
+    \ A notação encontra-se num espaço aberto entre as linhas de texto.
+
+<section data-id="music-up-down">
+  <p>Em cada sinal da notação, a caneta sobe e desce para mostrar a
+    \ melodia subindo e descendo. #
+    <span data-id="music-torculus">Uma
+    \ subida de duas notas pode ser ...
+    \ ou qualquer outra combinação de duas notas em ascensão.
+    \ A notação apenas nos diz que é uma ascensão de duas notas,
+    \ mas não nos diz para onde se sobe.
+
+<section data-id="music-gaps">
+  <p>Às vezes cada nota tem seu próprio formato; contudo, muitas das vezes
+    \ essas notas são agrupadas, #
+    <span data-id="music-compound">como no exemplo da ascensão de duas notas.
+    \ Um sinal pode referenciar apenas uma nota, ou várias.
+
+<section data-id="music-shape">
+  <p>Cada combinação de notas pode ser escrita de maneira diferente: #
+    <span data-id="music-variety">com
+    \ linhas e ângulos diretos, ou com curvas, ou com intervalos entre
+    \ as notas, por exemplo. As diversas formas de escrever podiam
+    \ transmitir informações sobre o ritmo, talvez com notas curvas
+    \ cantadas mais rápido do que aquelas com ângulos ou lacunas.
+    \ Mas não sabemos ao certo.
+
+<section data-id="music-mnemonic">
+  <p>Geralmente esta notação era utilizada como um auxiliar de memória
+    \ para pessoas que já conheciam a melodia. Os agrupamentos de notas
+    \ e símbolos usados nas partituras ajudavam os leitores a lembrar
+    \ a melodia.

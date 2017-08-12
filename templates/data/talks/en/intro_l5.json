@@ -1,0 +1,87 @@
+{ "timings": [
+    { "name":   "talk-beginning",
+      "time":   0
+    }
+  , { "name":   "intro-the-ms",
+      "time":   12500
+    }
+  , { "name":   "intro-text-elements",
+      "time":   20850
+    }
+  , { "name":   "intro-hl-text",
+      "time":   20851
+    }
+  , { "name":   "intro-hl-music",
+      "time":   26100
+    }
+  , { "name":   "intro-codex-pre",
+      "time":   43399
+    }
+  , { "name":   "intro-codex",
+      "time":   43400
+    }
+  , { "name":   "intro-codex-buttons",
+      "time":   43401
+    }
+  , { "name":   "intro-text-about-pre",
+      "time":   58699
+    }
+  , { "name":   "intro-text-about",
+      "time":   58700
+    }
+  , { "name":   "intro-text-writing",
+      "time":   58701
+    }
+  , { "name":   "intro-text-buttons",
+      "time":   66200
+    }
+  , { "name":   "intro-notation-pre",
+      "time":   85899
+    }
+  , { "name":   "intro-notation",
+      "time":   85900
+    }
+  , { "name":   "intro-notation-shapes",
+      "time":   85901
+    }
+  , { "name":   "intro-notation-buttons",
+      "time":   101700
+    }
+  , { "name":   "intro-pace-long",
+      "time":   126300
+    }
+  , { "name":   "intro-pace-short",
+      "time":   129600
+    }
+  , { "name":   "intro-cadences",
+      "time":   135100
+    }
+  , { "name":   "intro-phrases",
+      "time":   135101
+    }
+  , { "name":   "intro-phrase-ends",
+      "time":   144700
+    }
+  , { "name":   "intro-phrase-music",
+      "time":   147700
+    }
+  , { "name":   "intro-phrase-short1",
+      "time":   152600
+    }
+  , { "name":   "intro-phrase-short2",
+      "time":   153600
+    }
+  , { "name":   "intro-phrase-short3",
+      "time":   154600
+    }
+  , { "name":   "intro-phrase-long",
+      "time":   157700
+    }
+  , { "name":   "intro-phrase-creabo",
+      "time":   167700
+    }
+  , { "name":   "intro-end",
+      "time":   184400
+    }
+  ]
+}

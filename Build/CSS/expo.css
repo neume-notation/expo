@@ -1,0 +1,734 @@
+/*!
+ * Author: Paul Rouse
+ * Copyright 2017 University of Bristol
+ * Licensed under BSD-3-Clause - see the LICENSE file or http://opensource.org
+ */
+
+/* Page and body background */
+/* ======================== */
+
+html, body {
+    height: 100%;  /* Container min-height will be set relative to this */
+    -webkit-user-select: none;  /* Belt and braces: use prefixed versions too */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;           /* Never have scrollbars, not even on IE! */
+}
+body > .container, body > .container-fluid {
+    height: 100%;
+    min-height: 100%;
+    max-width: 2400px;          /* Avoid poor menu layout at very small zoom */
+}
+
+.fullheight {
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+}
+
+/* Additional media-size breakpoint */
+/* ================================ */
+
+/* These classes are used for a modal overlay message which forces the user
+ * to adopt some combination of full-screen and zoom out until the viewport
+ * size is sufficient (at least 1680 x 1049 - in "full-screen" mode, Firefox
+ * still keeps a 1px row for activating the toolbar).
+ * Note that the important definition is the min-(height|width) one, and
+ * omitting the styles above the max- sizes merely seems cleaner.  Therefore
+ * the potential overlap on the boundary is preferable to a possible gap
+ * at fractional pixel values.
+ *
+ * *** If these limits are changed, also change StandAlone/run.js ***
+ */
+@media (min-width: 1680px) and (min-height: 1049px) {
+  .screentoosmall {
+    display: none !important;
+  }
+}
+@media (max-width: 1680px), (max-height: 1049px) {
+  .screentoosmall {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    */
+  }
+  .screentoosmall div {
+    position: relative;
+    top: 30%;
+    margin: auto;
+    padding: 25px;
+    width: 50%;
+    border-radius: 5px;
+    background: #eee;
+    color: #444;
+  }
+}
+
+/* Content switching */
+/* ================= */
+
+/* Alternative top-level divs, only one of which will be visible at a time */
+.alternative {
+    height: 100%;
+    min-height: 100%;
+}
+
+/* Large top and bottom margins */
+/* ============================ */
+
+.vbigmargin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Centre vertically in available height */
+/* ===================================== */
+
+/* See http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/
+ * (includes a discussion of translateY(-50%) possibly not being a whole
+ * number of pixels, so sometimes producing a blurred result) or see
+ * https://css-tricks.com/centering-css-complete-guide/ for additional
+ * methods.
+ */
+.vcentre {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Margin for vertical separation */
+/* ============================== */
+
+/* Use on second and subsequent divs of a group containing buttons, for
+ * example, to ensure a vertical layout with some separation.
+ * TODO the rather odd number produces a slighly better position for the text
+ * in the button (on Firefox) - why? - something to do with rounding?
+ */
+.vseparate {
+    margin-top: 25.7px;
+}
+
+/* Sometimes it is helpful to shift the contents of a div to help alignment
+ */
+.vpad {
+    padding: 5px 0 7px 0;
+}
+
+/* Centred a wrapper (eg div) just fitting its content */
+/* =================================================== */
+
+/* This can be used for wrapper relative to which extra content can be placed.
+ * The critical thing is setting the `display`.  The choice of `table` here
+ * allows the horizontal centering to work, unlike `inline-block`.  See
+ * http://stackoverflow.com/questions/450903/how-to-make-div-not-larger-than-its-contents
+ */
+.tight-centre {
+    position: relative;
+    display: table;
+    box-sizing: content-box;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;      /* Horizontal centering using margins */
+    margin-right: auto;
+}
+
+/* We might want (carefully) to position content in tight content box, and
+ * allow it to overflow a little.  This wrapper fools the container into
+ * thinking it is very small, but allows oversize content to remain visible.
+ * The position can be set on the individual element, but will probably
+ * need to be adjusted in javascript to allow for resizing.
+ */
+.highlight {
+    position: absolute;
+    z-index: 2;
+    width: 1px;
+    height: 1px;
+    overflow: visible;
+}
+
+/* For items with absolute positioning on top of normal content, use this
+ */
+.as-mask {
+    position: absolute;
+    z-index: 3;             /* On top of highlights, too */
+}
+
+/* When something must be on top (eg correct answers in games) use this
+ */
+.must-be-top {
+    position: absolute;
+    z-index: 999;
+}
+
+/* Make a highlight by adding a border to a div.  Typically this class will
+ * be combined with .as-mask.  The top and left negative margins adjust
+ * positioning for the border width.
+ * The border colour should agree with that used for highlights constructed
+ * as images.
+ */
+.border-highlight {
+    box-sizing: content-box;
+    margin-top: -4px;
+    margin-left: -4px;
+    border: 4px solid #004ce6;
+    border-radius: 4px;
+}
+
+/* Like border-highlight, these classes make a div into a marker, but this time
+ * a diamond.  The image is 30x50 pixels.
+ */
+.diamond-blue {
+    background-image: url("../img/diamond-blue.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.diamond-red {
+    background-image: url("../img/diamond-red.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* The same colours as the diamonds for use in text, typically turning a space
+ * character into a marker so that the text doesn't shift, whatever the font.
+ */
+.text-mark-blue {
+    background: #004ce6;
+}
+.text-mark-red {
+    background: #cd0000;
+}
+
+/* Position at the bottom */
+/* ====================== */
+
+/* This can be used to make a div the full width of its container, and placed
+ * at the bottom (with 50px space below).  Typically used in a .fullheight
+ * column.  Note that Chrome appears not to like this on the *same* div as
+ * .tight-centre, although Firefox is OK with it, so, if both are needed,
+ * use two nested divs.
+ */
+.at-bottom {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    left: 0;
+}
+
+/* "End" Buttons */
+/* ============= */
+
+/* Buttons placed at the bottom of a column - for example below the
+ * text of a video-and-text narrative.  The div should have class .at-bottom
+ * as well as .end-buttons (which just provides horizontal spacing).
+ */
+@media (min-width: 1820px) {
+  .end-buttons .long-button:nth-child(1n+2), .end-buttons .small-lang:nth-child(1n+2) {
+    margin-left: 60px;
+  }
+}
+@media (max-width: 1819px) {
+  .end-buttons .long-button:nth-child(1n+2), .end-buttons .small-lang:nth-child(1n+2) {
+    margin-left: 40px;
+  }
+}
+
+/* When the "back to intro" button is generated alongside end buttons, it
+ * needs to be positioned in a div at the right with a width set the same
+ * way as Bootstrap's col-md-3, but fixed to the bottom-right corner of the
+ * screen.  Use this class on the div.
+ */
+.end_back_intro {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    width: 25%;
+}
+
+/* Presentation video */
+/* ================== */
+
+.expo-video {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 120px; /* Must agree with Narrative._setTalkContainerHeight
+                           * Large enough to leave room for end-buttons */
+}
+.expo-video video {
+    margin-left: auto;    /* Centre it */
+    margin-right: auto;
+    display: block;       /* Bootstrap sets it to inline-block */
+}
+
+div.expo-video-msg {
+    position: absolute;
+    top: 50px;            /* Top position matches margin-top of .expo-video */
+    left: 0px;
+    right: 0px;
+    box-sizing: border-box;
+    width: 640px;         /* Size must agree with video in narrative.js */
+    height: 400px;
+    border: 5px solid #666;
+    margin-left: auto;    /* Centre it */
+    margin-right: auto;
+    opacity: 0.5;
+    z-index: 2;           /* On top of the video */
+}
+.expo-video-msg div {
+    padding: 10px 20px;
+    font-size: 150%;
+    font-style: bold;
+    text-align: center;
+}
+
+/* Presentation text */
+/* ================= */
+
+/* We want this it to use all of the remaining height of the fullheight
+ * column.  The options are either:
+ *   - use `position: relative` (which must be specified because of the
+ *     absolute positioning of its children) and use javascript to adjust
+ *     the height - and remember to do it on window resize as well; or
+ *   - use absolute positioning and assume the height of the video - but
+ *     this can't account, by itself, for expanding if the video is hidden.
+ * Neither is ideal, but since it seems that javascript is needed at some
+ * point, we choose the `position: relative` version.
+ */
+.talk-container {
+    position: relative;
+    width: 100%;
+    height: 450px;        /* Simply an initial estimate - JS will override*/
+}
+
+/* The .text-mask div is placed over the top (z-index = 2) of talk-text, so its
+ * two background gradients act as masks top and bottom.
+ * Setting `pointer-events: none` allows mouse and touch events
+ * to pass "through" this div to the layer below - see
+ * http://stackoverflow.com/questions/1009753/pass-mouse-events-through-absolutely-positioned-element
+ * and https://css-tricks.com/almanac/properties/p/pointer-events/
+ * Touch events seem to be included - the second reference suggests they are OK
+ * TODO The stackoverflow answer says this doesn't work on IE, but css-tricks
+ *      says it does for IE11+
+ */
+.talk-mask {
+    position: absolute;
+    top: 0px;        /* Set all positions to force it to occupy full size */
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 10%), linear-gradient(to bottom, rgba(0,0,0,0) 90%, rgba(0,0,0,1) 100%);
+    z-index: 2;
+    pointer-events: none;
+}
+
+div.talk-text {
+    position: absolute;
+    top: 0px;
+    left: 0px;             /* Set both left and right to force full width */
+    right: 0px;
+    color: #4b4e4f;        /* @silver-dark */
+    overflow: auto;
+    height: 100%;
+}
+
+div.talk-text section.text-position {
+    color: #a0a5a7;        /* @silver-text */
+}
+
+/* Presentation controls */
+/* ===================== */
+
+div.controls-col {
+    width: 100px;
+}
+
+div.video-controls {
+    position: absolute;
+    top: 90px;
+}
+
+div.detail-controls {
+    position: absolute;
+}
+
+div.detail-default {
+    bottom:325px;
+}
+
+/* Special start-page styles */
+/* ========================= */
+
+/* Buttons used for flags
+ */
+/* See http://vanseodesign.com/css/css-specificity-inheritance-cascaade/ for a
+ * good explanation of CSS precedence, which explains why we *must* have
+ * state .expo-page explicitly (to make this selector more specific than
+ * .expo-page button).
+ */
+.expo-page .lang-flag {
+    margin: 0;
+    padding: 0;
+    width:150px;
+    height:100px;
+    border-radius: 0;
+    border: none;
+    filter: brightness(90%);
+}
+.expo-page .lang-flag:hover, .expo-page .lang-flag:focus {
+    filter: brightness(110%);
+}
+.expo-page .lang-flag:active {
+    filter: brightness(80%);
+}
+
+div#greeting {
+    height: 300px;
+    padding: 50px 10px 20px 10px;
+    text-align: center;
+}
+
+div#otherms {
+    position: absolute;
+    left: 0px;     /* Setting both left and right makes it full width (you  */
+    right: 0px;    /* can't have width: 100% when positioning absolute)     */
+    bottom: 50px;  /* The bottom position is all we actually wanted!        */
+    text-align: center;
+}
+
+div.mag-glass {
+    position: relative;
+    display: block;         /* So we can centre it with margins */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;      /* Horizontal centering using margins */
+    margin-right: auto;
+    width: 407px;
+    height: 418px;
+    overflow: visible;
+    z-index: -1;           /* Stop overflow blocking events to flags */
+}
+
+img.mag-glass {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.loc-choice {
+    box-sizing: content-box;
+    width: 350px;
+    padding: 10px;
+}
+
+.loc-choice-active {
+    background: #555;
+}
+
+/* Logos and credits at the bottom of the page.  Like `.at-bottom`, this is
+ * positioned at the bottom (even closer than .at-bottom), and is full width.
+ * See the comment on .at-bottom regarding mixing with .tight-centre on Chrome.
+ */
+.logo-box {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+}
+.logo-box img {
+    margin: 0 20px 10px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 0.7;
+}
+
+/* Round buttons */
+/* ============= */
+
+/* Styles for SVG are defined too, since start-page buttons have inline
+ * SVG content (others may too, of course).
+ */
+
+.expo-page button {
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 0px;     /* Avoid subtly different colour at border */
+    color: #f4fcff;
+    stroke: #f4fcff;
+    fill: #f4fcff;
+    outline: none;
+    white-space: pre-line; /* Preserve explicit line breaks in button text */
+}
+.expo-page button:hover, .expo-page button:focus {
+    color: #f8feff;
+    stroke: #f8feff;
+    fill: #f8feff;
+}
+
+/* Deliberately only provide a simple background for browsers which do not
+ * fully implement the CSS3 standard.  This software is primarily targeted at
+ * a closed environment, so it is more important to put work into other
+ * features, rather than doing the best possible on all old browsers!
+ * For general ideas on buttons etc:
+ * https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Styling_HTML_forms
+ */
+.expo-page .red-button {
+    background: rgb(110,0,0);    /* Old browsers */
+    background: radial-gradient(ellipse closest-side, rgb(150,0,0),rgb(110,0,0) 100%);
+}
+.expo-page .red-button:hover, .expo-page .red-button:focus {
+    background: rgb(150,0,0);
+    background: radial-gradient(ellipse closest-side, rgb(190,0,0),rgb(150,0,0) 100%);
+}
+.expo-page .red-button:active {
+    background: rgb(110,0,0);
+    background: radial-gradient(ellipse closest-side, rgb(110,0,0),rgb(150,0,0) 100%);
+}
+.expo-page .orange-button {
+    background: rgb(153,87,0);
+    background: radial-gradient(ellipse closest-side, rgb(204,116,0),rgb(153,87,0) 100%);
+}
+.expo-page .orange-button:hover, .expo-page .orange-button:focus {
+    background: rgb(204,116,0);
+    background: radial-gradient(ellipse closest-side, rgb(255,145,0),rgb(204,116,0) 100%);
+}
+.expo-page .orange-button:active {
+    background: rgb(153,87,0);
+    background: radial-gradient(ellipse closest-side, rgb(153,87,0),rgb(204,116,0) 100%);
+}
+.expo-page .green-button {
+    background: rgb(72,143,46);
+    background: radial-gradient(ellipse closest-side, rgb(93,186,60),rgb(72,143,46) 100%);
+}
+.expo-page .green-button:hover, .expo-page .green-button:focus {
+    background: rgb(112,156,71);
+    background: radial-gradient(ellipse closest-side, rgb(112,193,82),rgb(94,156,71) 100%);
+}
+.expo-page .green-button:active {
+    background: rgb(72,143,46);
+    background: radial-gradient(ellipse closest-side, rgb(72,143,46),rgb(94,156,71) 100%);
+}
+.expo-page .dark-green-button {
+    background: rgb(0,55,0);
+    background: radial-gradient(ellipse closest-side, rgb(0,80,0),rgb(0,55,0) 100%);
+    stroke: #c3cacc;
+    fill: #c3cacc;
+}
+.expo-page .dark-green-button:hover, .expo-page .dark-green-button:focus {
+    background: rgb(0,70,0);
+    background: radial-gradient(ellipse closest-side, rgb(0,95,0),rgb(0,70,0) 100%);
+    stroke: #dce3e6;
+    fill: #dce3e6;
+}
+.expo-page .dark-green-button:active {
+    background: rgb(0,55,0);
+    background: radial-gradient(ellipse closest-side, rgb(0,55,0),rgb(0,80,0) 100%);
+}
+.expo-page .blue-button {
+    background: rgb(0,76,230);
+    background: radial-gradient(ellipse closest-side, rgb(25,102,255),rgb(0,76,230) 100%);
+}
+.expo-page .blue-button:hover, .expo-page .blue-button:focus {
+    background: rgb(25,102,255);
+    background: radial-gradient(ellipse closest-side, rgb(77,136,255),rgb(25,102,255) 100%);
+}
+.expo-page .blue-button:active {
+    background: rgb(0,76,230);
+    background: radial-gradient(ellipse closest-side, rgb(0,76,230),rgb(25,102,255) 100%);
+}
+.expo-page .grey-button {
+    background: rgb(68,68,68);
+    background: radial-gradient(ellipse closest-side, rgb(85,85,85),rgb(68,68,68) 100%);
+}
+.expo-page .grey-button:hover, .expo-page .grey-button:focus {
+    background: rgb(85,85,85);
+    background: radial-gradient(ellipse closest-side, rgb(102,102,102),rgb(85,85,85) 100%);
+}
+.expo-page .grey-button:active {
+    background: rgb(68,68,68);
+    background: radial-gradient(ellipse closest-side, rgb(68,68,68),rgb(85,85,85) 100%);
+}
+
+/* Bigger round buttons */
+/* ==================== */
+
+/* Additional style to override size of `.expo-page button` to make a bigger
+ * round button suitable for the start page.
+ */
+.expo-page button.big-button {
+    /* padding: 0; */
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+
+/* Elongated buttons */
+/* ================= */
+
+/* Additional style to override width and height of `.expo-page button` to
+ * make a horizontal button suitable for the end-of-page navigation
+ */
+.expo-page button.long-button {
+    width:180px;
+    height:50px;
+    border-radius: 25px;
+}
+
+/* Similarly, and even longer style for the "explore further" menu page
+ */
+.expo-page button.vlong-button {
+    width:400px;
+    height:50px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+/* Smaller style for relatively dense situations such as the "next" button
+ * in sequential games
+ */
+.expo-page button.small-long-button {
+    width: 120px;
+    height: 36px;
+    border-radius: 18px;
+}
+
+/* Continue button icons */
+/* ===================== */
+
+/* Wrap the content of an elongated button in a div with class ".cont-menu"
+ * or ".cont-forward" to add an icon indicating the purpose.
+ * The right padding is the width of the icons.
+ */
+.long-button div.cont-menu, .long-button div.cont-forward {
+    padding: 6px 45px 6px 0;
+    width: 100%;
+}
+.long-button div.cont-menu {
+    background-image: url("../img/menu_bg.png");
+    background-repeat:  no-repeat;
+    background-position: right center;
+}
+.long-button div.cont-forward {
+    background-image: url("../img/forward_bg.png");
+    background-repeat:  no-repeat;
+    background-position: right center;
+}
+
+/* Small language buttons */
+/* ====================== */
+
+/* The small language buttons are in a div with class .small-lang.
+ * This div is made to occupy the same space as a .long-button, and it is
+ * positioned the same way as a .long-button would be in .end-buttons.
+ * The contents of the div are three 48x32 images, which need to be spaced.
+ */
+.small-lang {
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    padding: 9px 0 9px 0;
+}
+.small-lang img:nth-child(1n+2) {
+    margin-left: 18px;
+}
+.small-lang img {
+    width:48px;
+    height:32px;
+    border: none;
+    filter: brightness(90%);
+}
+.small-lang img:hover, .small-lang img:focus {
+    filter: brightness(110%);
+}
+.small-lang img:active {
+    filter: brightness(80%);
+}
+
+/* Special Explore / Menu page styles */
+/* ================================== */
+
+.explore-menu {
+    background: url("../img/explore_bg.jpg") no-repeat center;
+    text-align: center;
+}
+
+.explore-boxes {
+    display: table;
+}
+
+.explore-main, .explore-sub {
+    display: table-cell;
+    vertical-align: top;
+    float: none;           /* Seems to be important for getting 100% height */
+    height: 100%;
+}
+.explore-sub .well {
+    position: absolute;
+    top: 0px;        /* Set all positions to force well to occupy full size */
+    bottom: 0px;
+    left: 15px;      /* Match bootstrap padding */
+    right: 15px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* CSS for IE10+ only - for this trick see
+       http://stackoverflow.com/questions/28417056/how-to-target-only-ie-any-version-within-a-stylesheet
+       This improves IE, but it's still not full height.
+     */
+  .explore-sub .well {
+    position: relative;
+    margin-right: 15px;
+  }
+}
+
+.credits-list {
+    text-align: left;
+}
+
+/* Fade out effect */
+/* =============== */
+
+/* To make an element softly and suddenly vanish away.. ahem.. appear and
+ * then fade out over time, we actually fade it in, but quickly, and use the
+ * transitionend event as a timeout on which to change the class to .fadeout.
+ */
+.fadein {
+    opacity: 1;
+    transition: opacity 0.1s;
+}
+.fadeout {
+    opacity: 0;
+    transition: opacity 6s 0.5s;
+}
+.faded {
+    opacity: 0;
+    transition-property: none;
+}
+
+/* Format a modern note within text.  The note is an SVG image which almost
+ * fills its viewport, and centres in areas with aspect ratio other than 1:2.
+ */
+img.modern-note {
+    width: 1.0em;          /* Add some extra width (above 0.7em) for spacing */
+    height: 1.4em;
+}
+
+/* Make text active, like a link
+ */
+.as-link:hover, .as-link:focus {
+    text-decoration: underline;
+}
+
+/* Make text slightly smaller.  This is for unfortunate situations, such as the
+ * "Back to Intro" button, where the translation to iberian languages does not
+ * fit the available space when the standard font size is used.
+ */
+.small-text {
+    font-size: 90%;
+}

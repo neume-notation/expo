@@ -1,0 +1,13 @@
+{ "music":
+    { "webm":
+        { "en": "@{StaticR expo_video_en_music_webm}"
+        , "es": "@{StaticR expo_video_es_music_webm}"
+        , "pt": "@{StaticR expo_video_pt_music_webm}"
+        }
+    , "mp4":
+        { "en": "@{StaticR expo_videoMp4_en_music_mp4}"
+        , "es": "@{StaticR expo_videoMp4_es_music_mp4}"
+        , "pt": "@{StaticR expo_videoMp4_pt_music_mp4}"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{ "timings": [
+    { "name":   "talk-beginning",
+      "time":   0
+    }
+  , { "name":   "useofms-use1",
+      "time":   14200
+    }
+  , { "name":   "useofms-chant",
+      "time":   19800
+    }
+  , { "name":   "useofms-prayer",
+      "time":   19801
+    }
+  , { "name":   "useofms-reading",
+      "time":   19802
+    }
+  , { "name":   "useofms-add1",
+      "time":   19803
+    }
+  , { "name":   "useofms-add2",
+      "time":   19804
+    }
+  , { "name":   "useofms-marks",
+      "time":   19805
+    }
+  ]
+}

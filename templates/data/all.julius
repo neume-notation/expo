@@ -1,0 +1,302 @@
+var expoData = {
+      "messages":   #{messages}
+    , "urls":       #{urls}
+    , "locUrls":    #{locUrls}
+    , "locHLs":     #{locHLs}
+    , "locActives": #{locActives}
+    , "videos":     #{videos}
+    , "locVideos":  #{locVideos}
+    , "talks":
+        { "music":
+            { "en": #{toJSON musicHtmlEn}
+            , "es": #{toJSON musicHtmlEs}
+            , "pt": #{toJSON musicHtmlPt}
+            }
+        , "credits":
+            { "en": #{toJSON creditsHtmlEn}
+            , "es": #{toJSON creditsHtmlEs}
+            , "pt": #{toJSON creditsHtmlPt}
+            }
+        }
+    , "locTalks":
+        { "introduction":
+            { "coimbra":
+                { "en": #{toJSON introGChtmlEn}
+                , "es": #{toJSON introGChtmlEs}
+                , "pt": #{toJSON introGChtmlPt}
+                }
+            , "lamego":
+                { "en": #{toJSON introGChtmlEn}
+                , "es": #{toJSON introGChtmlEs}
+                , "pt": #{toJSON introGChtmlPt}
+                }
+            , "leon":
+                { "en": #{toJSON introL5htmlEn}
+                , "es": #{toJSON introL5htmlEs}
+                , "pt": #{toJSON introL5htmlPt}
+                }
+            , "madrid":
+                { "en": #{toJSON introGChtmlEn}
+                , "es": #{toJSON introGChtmlEs}
+                , "pt": #{toJSON introGChtmlPt}
+                }
+            }
+        , "codicology":
+            { "coimbra":
+                { "en": #{toJSON codexCAhtmlEn}
+                , "es": #{toJSON codexCAhtmlEs}
+                , "pt": #{toJSON codexCAhtmlPt}
+                }
+            , "lamego":
+                { "en": #{toJSON codexLOhtmlEn}
+                , "es": #{toJSON codexLOhtmlEs}
+                , "pt": #{toJSON codexLOhtmlPt}
+                }
+            , "leon":
+                { "en": #{toJSON codexL5htmlEn}
+                , "es": #{toJSON codexL5htmlEs}
+                , "pt": #{toJSON codexL5htmlPt}
+                }
+            , "madrid":
+                { "en": #{toJSON codexB1htmlEn}
+                , "es": #{toJSON codexB1htmlEs}
+                , "pt": #{toJSON codexB1htmlPt}
+                }
+            }
+        , "useofms":
+            { "coimbra":
+                { "en": #{toJSON useofmsCAhtmlEn}
+                , "es": #{toJSON useofmsCAhtmlEs}
+                , "pt": #{toJSON useofmsCAhtmlPt}
+                }
+            , "lamego":
+                { "en": #{toJSON useofmsLOhtmlEn}
+                , "es": #{toJSON useofmsLOhtmlEs}
+                , "pt": #{toJSON useofmsLOhtmlPt}
+                }
+            , "leon":
+                { "en": #{toJSON useofmsL5htmlEn}
+                , "es": #{toJSON useofmsL5htmlEs}
+                , "pt": #{toJSON useofmsL5htmlPt}
+                }
+            , "madrid":
+                { "en": #{toJSON useofmsB1htmlEn}
+                , "es": #{toJSON useofmsB1htmlEs}
+                , "pt": #{toJSON useofmsB1htmlPt}
+                }
+            }
+        , "cadence":
+            { "coimbra":
+                { "en": #{toJSON cadenceCAhtmlEn}
+                , "es": #{toJSON cadenceCAhtmlEs}
+                , "pt": #{toJSON cadenceCAhtmlPt}
+                }
+            , "lamego":
+                { "en": #{toJSON cadenceLOhtmlEn}
+                , "es": #{toJSON cadenceLOhtmlEs}
+                , "pt": #{toJSON cadenceLOhtmlPt}
+                }
+            , "leon":
+                { "en": #{toJSON cadenceL5htmlEn}
+                , "es": #{toJSON cadenceL5htmlEs}
+                , "pt": #{toJSON cadenceL5htmlPt}
+                }
+            , "madrid":
+                { "en": #{toJSON cadenceB1htmlEn}
+                , "es": #{toJSON cadenceB1htmlEs}
+                , "pt": #{toJSON cadenceB1htmlPt}
+                }
+            }
+        , "textbits":
+            { "coimbra":
+                { "en": #{toJSON textbitsCAhtmlEn}
+                , "es": #{toJSON textbitsCAhtmlEs}
+                , "pt": #{toJSON textbitsCAhtmlPt}
+                }
+            , "lamego":
+                { "en": #{toJSON textbitsLOhtmlEn}
+                , "es": #{toJSON textbitsLOhtmlEs}
+                , "pt": #{toJSON textbitsLOhtmlPt}
+                }
+            , "leon":
+                { "en": #{toJSON textbitsL5htmlEn}
+                , "es": #{toJSON textbitsL5htmlEs}
+                , "pt": #{toJSON textbitsL5htmlPt}
+                }
+            , "madrid":
+                { "en": #{toJSON textbitsB1htmlEn}
+                , "es": #{toJSON textbitsB1htmlEs}
+                , "pt": #{toJSON textbitsB1htmlPt}
+                }
+            }
+        , "textmore":
+            { "coimbra":
+                { "en": #{toJSON textmoreCAhtmlEn}
+                , "es": #{toJSON textmoreCAhtmlEs}
+                , "pt": #{toJSON textmoreCAhtmlPt}
+                }
+            , "lamego":
+                { "en": #{toJSON textmoreLOhtmlEn}
+                , "es": #{toJSON textmoreLOhtmlEs}
+                , "pt": #{toJSON textmoreLOhtmlPt}
+                }
+            , "leon":
+                { "en": #{toJSON textmoreL5htmlEn}
+                , "es": #{toJSON textmoreL5htmlEs}
+                , "pt": #{toJSON textmoreL5htmlPt}
+                }
+            , "madrid":
+                { "en": #{toJSON textmoreB1htmlEn}
+                , "es": #{toJSON textmoreB1htmlEs}
+                , "pt": #{toJSON textmoreB1htmlPt}
+                }
+            }
+        }
+    , "timings":
+        { "music":
+            { "en": #{musicTimeEn}
+            , "es": #{musicTimeEs}
+            , "pt": #{musicTimePt}
+            }
+        }
+    , "locTimings":
+        { "introduction":
+            { "coimbra":
+                { "en": #{introGCtimeEn}
+                , "es": #{introGCtimeEs}
+                , "pt": #{introGCtimePt}
+                }
+            , "lamego":
+                { "en": #{introGCtimeEn}
+                , "es": #{introGCtimeEs}
+                , "pt": #{introGCtimePt}
+                }
+            , "leon":
+                { "en": #{introL5timeEn}
+                , "es": #{introL5timeEs}
+                , "pt": #{introL5timePt}
+                }
+            , "madrid":
+                { "en": #{introGCtimeEn}
+                , "es": #{introGCtimeEs}
+                , "pt": #{introGCtimePt}
+                }
+            }
+        , "codicology":
+            { "coimbra":
+                { "en": #{codexCAtimeEn}
+                , "es": #{codexCAtimeEs}
+                , "pt": #{codexCAtimePt}
+                }
+            , "lamego":
+                { "en": #{codexLOtimeEn}
+                , "es": #{codexLOtimeEs}
+                , "pt": #{codexLOtimePt}
+                }
+            , "leon":
+                { "en": #{codexL5timeEn}
+                , "es": #{codexL5timeEs}
+                , "pt": #{codexL5timePt}
+                }
+            , "madrid":
+                { "en": #{codexB1timeEn}
+                , "es": #{codexB1timeEs}
+                , "pt": #{codexB1timePt}
+                }
+            }
+        , "useofms":
+            { "coimbra":
+                { "en": #{useofmsCAtimeEn}
+                , "es": #{useofmsCAtimeEs}
+                , "pt": #{useofmsCAtimePt}
+                }
+            , "lamego":
+                { "en": #{useofmsLOtimeEn}
+                , "es": #{useofmsLOtimeEs}
+                , "pt": #{useofmsLOtimePt}
+                }
+            , "leon":
+                { "en": #{useofmsL5timeEn}
+                , "es": #{useofmsL5timeEs}
+                , "pt": #{useofmsL5timePt}
+                }
+            , "madrid":
+                { "en": #{useofmsB1timeEn}
+                , "es": #{useofmsB1timeEs}
+                , "pt": #{useofmsB1timePt}
+                }
+            }
+        , "cadence":
+            { "coimbra":
+                { "en": #{cadenceCAtimeEn}
+                , "es": #{cadenceCAtimeEs}
+                , "pt": #{cadenceCAtimePt}
+                }
+            , "lamego":
+                { "en": #{cadenceLOtimeEn}
+                , "es": #{cadenceLOtimeEs}
+                , "pt": #{cadenceLOtimePt}
+                }
+            , "leon":
+                { "en": #{cadenceL5timeEn}
+                , "es": #{cadenceL5timeEs}
+                , "pt": #{cadenceL5timePt}
+                }
+            , "madrid":
+                { "en": #{cadenceB1timeEn}
+                , "es": #{cadenceB1timeEs}
+                , "pt": #{cadenceB1timePt}
+                }
+            }
+        , "textbits":
+            { "coimbra":
+                { "en": #{textbitsCAtimeEn}
+                , "es": #{textbitsCAtimeEs}
+                , "pt": #{textbitsCAtimePt}
+                }
+            , "lamego":
+                { "en": #{textbitsLOtimeEn}
+                , "es": #{textbitsLOtimeEs}
+                , "pt": #{textbitsLOtimePt}
+                }
+            , "leon":
+                { "en": #{textbitsL5timeEn}
+                , "es": #{textbitsL5timeEs}
+                , "pt": #{textbitsL5timePt}
+                }
+            , "madrid":
+                { "en": #{textbitsB1timeEn}
+                , "es": #{textbitsB1timeEs}
+                , "pt": #{textbitsB1timePt}
+                }
+            }
+        , "textmore":
+            { "coimbra":
+                { "en": #{textmoreCAtimeEn}
+                , "es": #{textmoreCAtimeEs}
+                , "pt": #{textmoreCAtimePt}
+                }
+            , "lamego":
+                { "en": #{textmoreLOtimeEn}
+                , "es": #{textmoreLOtimeEs}
+                , "pt": #{textmoreLOtimePt}
+                }
+            , "leon":
+                { "en": #{textmoreL5timeEn}
+                , "es": #{textmoreL5timeEs}
+                , "pt": #{textmoreL5timePt}
+                }
+            , "madrid":
+                { "en": #{textmoreB1timeEn}
+                , "es": #{textmoreB1timeEs}
+                , "pt": #{textmoreB1timePt}
+                }
+            }
+        }
+    , "miniceap":
+        { "html":       #{toJSON miniceapHtml}
+        , "transcript": #{toJSON transcription}
+        , "similar":    #{toJSON similarNeumes}
+        }
+    , "feedback": #{feedback}
+    }

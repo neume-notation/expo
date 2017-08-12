@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="1024" height="1024" version="1.1" viewBox="0 0 1024 1024"
+  xmlns="http://www.w3.org/2000/svg">
+  <metadata>Created manually by Paul Rouse - February 2017</metadata>
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.5" r="0.75" fx="0.25" fy="0.25">
+      <stop offset="0%" stop-color="#ffd86e" />
+      <stop offset="100%" stop-color="#c49208" />
+    </radialGradient>
+  </defs>
+  <circle cx="512" cy="512" r="500" fill="url(#bg)" stroke="none" />
+  <path fill="black" stroke="black" stroke-linejoin="round" stroke-width="30"
+        d="M 256 810
+           A 350,300 0 0,1 768,810
+           A 350,400 0 0,0 256,810
+           Z" />
+  <ellipse cx="312" cy="400" rx="90" ry="100" />
+  <ellipse cx="712" cy="400" rx="90" ry="100" />
+</svg>

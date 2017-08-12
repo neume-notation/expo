@@ -1,0 +1,60 @@
+<div class="row credits-list">
+  <div class="col-xs-6">
+    <h5>This exhibition was made possible by
+    <ul>
+      <li>Arts and Humanities Research Council (AHRC)
+      <li>University of Bristol
+      <li>João Carlos Costa & Wilson Teixeira, Arquivo-Museu Diocesano de Lamego
+      <li>Júlio Ramos, Arquivo da Universidade de Coimbra
+      <li>Gema Hernández Carralón & Mercedes Pasalodos, Biblioteca Nacional de España
+      <li>Antonio Trobajo Díaz, Manuel Pérez Recio & Mario Alegre, Catedral de León
+      <li>Rosa Isusu Fagoaga, Departament de Didàctica de l'Expressió Musical, Plàstica i Corporal, Universitat de València
+      <li>Carmen Julia Gutiérrez, Universidad Complutense de Madrid
+      <li>Concepción Mendo Carmona
+      <li>José Antonio Fernández Flórez
+      <li>Padre Lorenzo Maté
+
+    <h5>Exhibition content and design
+    <ul>
+      <li>Emma Hornby
+      <li>Rebecca Maloy
+      <li>Raquel Rojo Carrillo
+      <li>Paul Rouse
+
+
+  <div class="col-xs-6">
+    <h5>Video production and editing
+    <ul>
+      <li>Jeremy Rieder
+
+    <h5>Spanish voice
+    <ul>
+      <li>Rosa Isusi Fagoaga
+
+    <h5>Portuguese voices
+    <ul>
+      <li>Mirella Ferreira
+      <li>Zé Aruana Kouyate
+      <li>Maria Helena Milheiro
+
+    <h5>Photographs
+    <ul>
+      <li>Abadía de Santo Domingo de Silos
+      <li>Dorset History Centre
+      <li>National Library of Wales
+      <li>National Museum of Ireland
+      <li>Ian Wei
+
+    <h5>Graphic design
+    <ul>
+      <li>Mario López Ruíz, Biblioteca Nacional de España
+      <li>Matthew Sansom
+
+    <p>Thank you to colleagues, students and friends who have tested the software in development.
+
+    <p>Program source code: #
+      $if standAlone
+        github.com/neume-notation/expo
+      $else
+        <a href="https://github.com/neume-notation/expo">
+          github.com/neume-notation/expo

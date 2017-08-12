@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<messages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <message id="small_screen">
+    <usage>Message in box shown on start page when the window is too small</usage>
+    <english>This web site has been designed for display in an exhibition, using a full-size screen.  Please adjust your browser in the following ways:</english>
+    <spanish>Esta página web ha sido diseñada para verse en pantalla completa. Ajuste su navegador de las siguientes maneras:</spanish>
+    <portuguese>Esta página web foi desenhada para ser vista em ecrã completo. Ajuste o seu navegador da seguinte forma:</portuguese>
+  </message>
+  <message id="small_full">
+    <usage>First numbered instruction in box shown on start page when the window is too small</usage>
+    <english>Use full-screen mode (for example by pressing the F11 key in Windows browsers).</english>
+    <spanish>Use modo pantalla completa (por ejemplo, pulsando F11 en Windows)</spanish>
+    <portuguese>Use o modo ecrã completo (por exemplo carregando em F11, no Windows)</portuguese>
+  </message>
+  <message id="small_zoom">
+    <usage>Second numbered instruction in box shown on start page when the window is too small</usage>
+    <english>If this box is still showing, zoom out until it disappears (with Ctrl+- in Windows browsers).</english>
+    <spanish>Si este cuadro sigue visible, ajuste el zoom hasta que desaparezca (usando Ctrl+- en Windows)</spanish>
+    <portuguese>Se este quadro ainda se mantém visível, juste o zoom até que desapareça (com Ctrl+- em Windows)</portuguese>
+  </message>
+  <message id="greet_head">
+    <usage>The heading on the start page</usage>
+    <english>Explore the Manuscript Beside You</english>
+    <spanish>Descubra el canto hispánico en este fragmento</spanish>
+    <portuguese>Descubra o canto Hispânico neste fragmento</portuguese>
+  </message>
+  <message id="greet_head_alt">
+    <usage>Start-page heading when choice of places/manuscripts is offered</usage>
+    <english>Explore Iberian Chant Manuscripts</english>
+    <spanish>Descubra el canto hispánico en estos fragmentos</spanish>
+    <portuguese>Descubra o canto Hispânico noutros fragmentos</portuguese>
+  </message>
+  <message id="greeting">
+    <usage>The short instruction on the start page - the translation of "Start" and "Menu" should match the button labels</usage>
+    <english>Please click the “Start” button to begin with the introduction, or the “Menu” button to go straight to the advanced options.</english>
+    <spanish>Pulse el botón “Comenzar” para inciar la exposición o el botón “Menú” para ver más opciones.</spanish>
+    <portuguese>Carregue em «Começar» para iniciar a exposição ou o botão «Menu» para mais opções.</portuguese>
+  </message>
+  <message id="greeting_alt">
+    <usage>Like 'greeting', but used when when choice of places/manuscripts is offered</usage>
+    <english>Please choose one of the manuscripts in this exhibition.</english>
+    <spanish>Escoja uno de los manuscritos de esta exposición.</spanish>
+    <portuguese>Escolha um dos manuscritos da exposição.</portuguese>
+  </message>
+  <message id="alt_coimbra">
+    <usage>Caption under the image used to select a location when a choice is offered</usage>
+    <english>Arquivo Distrital e da Universidade de Coimbra, Portugal</english>
+    <spanish>Arquivo Distrital e da Universidade de Coimbra, Portugal</spanish>
+    <portuguese>Arquivo Distrital e da Universidade de Coimbra, Portugal</portuguese>
+  </message>
+  <message id="alt_lamego">
+    <usage>Caption under the image used to select a location when a choice is offered</usage>
+    <english>Arquivo-Museu Diocesano de Lamego, Portugal</english>
+    <spanish>Arquivo-Museu Diocesano de Lamego, Portugal</spanish>
+    <portuguese>Arquivo-Museu Diocesano de Lamego, Portugal</portuguese>
+  </message>
+  <message id="alt_leon">
+    <usage>Caption under the image used to select a location when a choice is offered</usage>
+    <english>León Cathedral, Spain</english>
+    <spanish>Catedral de León, España</spanish>
+    <portuguese>Catedral de León, Espanha</portuguese>
+  </message>
+  <message id="alt_madrid">
+    <usage>Caption under the image used to select a location when a choice is offered</usage>
+    <english>Biblioteca Nacional de España, Madrid, Spain</english>
+    <spanish>Biblioteca Nacional de España, Madrid, España</spanish>
+    <portuguese>Biblioteca Nacional de Espanha, Madrid, Espanha</portuguese>
+  </message>
+  <message id="start">
+    <usage>The label on the "Start" button on the start page</usage>
+    <english>Start</english>
+    <spanish>Comenzar</spanish>
+    <portuguese>Começar</portuguese>
+  </message>
+  <message id="menu">
+    <usage>The label on the "Menu" button on the start page</usage>
+    <english>Menu</english>
+    <spanish>Menú</spanish>
+    <portuguese>Menu</portuguese>
+  </message>
+  <message id="credits">
+    <usage>The link or button label on the start page for going to the credits page</usage>
+    <english>Click here for full acknowledgements</english>
+    <spanish>Pulse aquí para ver los agradecimientos</spanish>
+    <portuguese>Carregue aqui para visualizar os agradecimentos</portuguese>
+  </message>
+  <message id="credits_head">
+    <usage>The main heading on the credits page</usage>
+    <english>Acknowledgements</english>
+    <spanish>Agradecimientos</spanish>
+    <portuguese>Agradecimentos</portuguese>
+  </message>
+  <message id="hide_video">
+    <usage>The label on the hide/show video button when it needs to say "Hide"</usage>
+    <english>Hide Video</english>
+    <spanish>Esconder vídeo</spanish>
+    <portuguese>Esconder vídeo</portuguese>
+  </message>
+  <message id="show_video">
+    <usage>The label on the hide/show video button when it needs to say "Show"</usage>
+    <english>Show Video</english>
+    <spanish>Mostrar vídeo</spanish>
+    <portuguese>Mostrar vídeo</portuguese>
+  </message>
+  <message id="pause_video">
+    <usage>The label on the pause/resume/replay video button when it needs to say "Pause"</usage>
+    <english>Pause</english>
+    <spanish>Pausa</spanish>
+    <portuguese>Pausa</portuguese>
+  </message>
+  <message id="resume_video">
+    <usage>The label on the pause/resume/replay video button when it needs to say "Resume"</usage>
+    <english>Resume</english>
+    <spanish>Reanudar</spanish>
+    <portuguese>Prosseguir</portuguese>
+  </message>
+  <message id="replay_video">
+    <usage>The label on the pause/resume/replay video button when it needs to say "Replay"</usage>
+    <english>Play Again</english>
+    <spanish>Reproducir de nuevo</spanish>
+    <portuguese>Reproduzir de novo</portuguese>
+  </message>
+  <message id="start_again">
+    <usage>End-of-page button which goes back to the start.  Must be short</usage>
+    <english>New Visitor</english>
+    <spanish>Nuevo Visitante</spanish>
+    <portuguese>Novo Visitante</portuguese>
+  </message>
+  <message id="continue">
+    <usage>The label on the end-of-page button which continues our predefined sequence</usage>
+    <english>More</english>
+    <spanish>Más</spanish>
+    <portuguese>Mais</portuguese>
+  </message>
+  <message id="back_button">
+    <usage>The label of the button which goes back to the introduction, appearing on many pages</usage>
+    <english>Back to Intro</english>
+    <spanish>Volver a la Introducción</spanish>
+    <portuguese>Voltar à Introdução</portuguese>
+  </message>
+  <message id="start_msg">
+    <usage>Message at start of video - only visible when scrolling text back to start.  "Resume" must agree with button label.</usage>
+    <english>Click Resume to restart the video</english>
+    <spanish>Pulse “Reanudar” para reactivar el vídeo</spanish>
+    <portuguese>Carregue «Prosseguir» para reativar o vídeo</portuguese>
+  </message>
+  <message id="end_msg">
+    <usage>Message shown at end of video. "More" must agree with the button label.</usage>
+    <english>Use the More button at the bottom to discover more!</english>
+    <spanish>Pulse “Más” para descubrir más.</spanish>
+    <portuguese>Carregue «Mais» para descobrir mais.</portuguese>
+  </message>
+  <message id="ms_usage">
+    <usage>The short label of the circular button for details about the manuscript (codicology)</usage>
+    <english>Format and Use</english>
+    <spanish>Formato y uso</spanish>
+    <portuguese>Formato e uso</portuguese>
+  </message>
+  <message id="not_intro">
+    <usage>The short label of the circular button for an introduction to the musical notation</usage>
+    <english>Music</english>
+    <spanish>Música</spanish>
+    <portuguese>Música</portuguese>
+  </message>
+  <message id="txt_bits">
+    <usage>The short label of the circular button  for explaining the different types of text</usage>
+    <english>Text elements</english>
+    <spanish>Elementos textuales</spanish>
+    <portuguese>Elementos textuais</portuguese>
+  </message>
+  <message id="nav_head">
+    <usage>Start of heading on "explore/menu" page - must be suitable to be follwed by the manuscript name/location</usage>
+    <english>You are exploring the manuscript at</english>
+    <spanish>Está examinando el fragmento en</spanish>
+    <portuguese>Está a explorar o manuscrito em</portuguese>
+  </message>
+  <message id="nav_greet">
+    <usage>Greeting at the top of the "explore/menu" page</usage>
+    <english>Tap a button on the left to see the detailed menu.   ( * = one version for all manuscripts.)</english>
+    <spanish>Pulse el botón de la izquierda para ver el menú.   ( * = versión única para todos los manuscritos.)</spanish>
+    <portuguese>Carregue o botão da esquerda para ver o menu.   (* = versão única para todos os manuscritos.)</portuguese>
+  </message>
+  <message id="nav_intro">
+    <usage>Item on the "explore" top-level menu to go to intro - must be suitable to be follwed by the manuscript name/location</usage>
+    <english>Introduction*</english>
+    <spanish>Introducción*</spanish>
+    <portuguese>Introdução*</portuguese>
+  </message>
+  <message id="nav_ms">
+    <usage>Item on the "explore" top-level menu for details about the manuscript (ie codicology)</usage>
+    <english>Description and use of the manuscript</english>
+    <spanish>Descripción y uso del manuscrito</spanish>
+    <portuguese>Descrição e uso do manuscrito</portuguese>
+  </message>
+  <message id="nav_ms_like">
+    <usage>Item on the "explore" menu for details about what the manuscript is like</usage>
+    <english>Manuscript - what it is like</english>
+    <spanish>Fragmento: cómo es</spanish>
+    <portuguese>Fragmento: como é</portuguese>
+  </message>
+  <message id="nav_ms_usage">
+    <usage>Item on the "explore" menu for details about how the manuscript was used</usage>
+    <english>Manuscript - how it was used</english>
+    <spanish>Fragmento: cómo se usó</spanish>
+    <portuguese>Fragmento: como se utilizou</portuguese>
+  </message>
+  <message id="nav_ms_survive">
+    <usage>Item on the "explore" menu for the game to guess where manuscripts have been found</usage>
+    <english>Guess where manuscripts were found*</english>
+    <spanish>Adivine dónde se encontraron los fragmentos*</spanish>
+    <portuguese>Adivinhe onde foram encontrados*</portuguese>
+  </message>
+  <message id="nav_not">
+    <usage>Item on the "explore" top-level menu for musical notation and cadences</usage>
+    <english>Music and its notation</english>
+    <spanish>Música y su notación</spanish>
+    <portuguese>Música e sua notação</portuguese>
+  </message>
+  <message id="nav_not_intro">
+    <usage>Item on the "explore" menu for an introduction to the musical notation</usage>
+    <english>How the music was written*</english>
+    <spanish>Escritura musical*</spanish>
+    <portuguese>Escrita musical*</portuguese>
+  </message>
+  <message id="nav_not_cadence">
+    <usage>Item on the "explore" menu for cadences in the music</usage>
+    <english>Pauses in the music</english>
+    <spanish>Cadencias musicales</spanish>
+    <portuguese>Cadências musicais</portuguese>
+  </message>
+  <message id="nav_not_ceap">
+    <usage>Item on the "explore" menu for activity to try transcribing the musical notation</usage>
+    <english>Try copying the music*</english>
+    <spanish>Escriba la música*</spanish>
+    <portuguese>Tente copiar a música*</portuguese>
+  </message>
+  <message id="nav_not_phrases">
+    <usage>Item on the "explore" menu for activity to find where pauses are likely in the text</usage>
+    <english>Try splitting the text into phrases*</english>
+    <spanish>Encuentre las frases del texto*</spanish>
+    <portuguese>Encontre as frases do texto*</portuguese>
+  </message>
+  <message id="nav_txt">
+    <usage>Item on the "explore" top-level menu for reading and understanding the text</usage>
+    <english>The text and how to read it</english>
+    <spanish>Cómo leer el texto</spanish>
+    <portuguese>Como ler o texto</portuguese>
+  </message>
+  <message id="nav_txt_bits">
+    <usage>Item on the "explore" menu for explaining the different types of text</usage>
+    <english>Contents of the fragment in more detail</english>
+    <spanish>Contenido en este fragmento en detalle</spanish>
+    <portuguese>Conteúdo detalhado deste fragmento</portuguese>
+  </message>
+  <message id="nav_txt_more">
+    <usage>Item on the "explore" menu for meaning and significance of the text</usage>
+    <english>Significance of the text</english>
+    <spanish>Significado del texto</spanish>
+    <portuguese>Significado do texto</portuguese>
+  </message>
+  <message id="nav_txt_read">
+    <usage>Item on the "explore" menu for activity to help reading text</usage>
+    <english>Try reading some of the words*</english>
+    <spanish>Lea algunas palabras*</spanish>
+    <portuguese>Leia algumas palavras*</portuguese>
+  </message>
+  <message id="nav_alt">
+    <usage>Item on the "explore" top-level menu to change manuscript</usage>
+    <english>Choose another manuscript</english>
+    <spanish>Vea otro fragmento</spanish>
+    <portuguese>Veja outro fragmento</portuguese>
+  </message>
+  <message id="nav_alt_coimbra">
+    <usage>Item on the "explore" menu to change to manuscript at Coimbra</usage>
+    <english>Coimbra</english>
+    <spanish>Coímbra</spanish>
+    <portuguese>Coimbra</portuguese>
+  </message>
+  <message id="nav_alt_lamego">
+    <usage>Item on the "explore" menu to change to manuscript at Lamego</usage>
+    <english>Lamego</english>
+    <spanish>Lamego</spanish>
+    <portuguese>Lamego</portuguese>
+  </message>
+  <message id="nav_alt_leon">
+    <usage>Item on the "explore" menu to change to manuscript at León</usage>
+    <english>León</english>
+    <spanish>León</spanish>
+    <portuguese>León</portuguese>
+  </message>
+  <message id="nav_alt_madrid">
+    <usage>Item on the "explore" menu to change to manuscript at Madrid</usage>
+    <english>Madrid</english>
+    <spanish>Madrid</spanish>
+    <portuguese>Madrid</portuguese>
+  </message>
+  <message id="nav_alt_this">
+    <usage>Item on the "explore" menu to change to manuscript at the local exhibition site</usage>
+    <english>This exhibition</english>
+    <spanish>Esta exposición</spanish>
+    <portuguese>Esta exposição</portuguese>
+  </message>
+  <message id="nav_feedback">
+    <usage>Link to feedback survey (web version only, on menu page)</usage>
+    <english>Feedback (opens in new window)</english>
+    <spanish>Su opinión (se abrirá una nueva ventana)</spanish>
+    <portuguese>Sua opinião (nova janela)</portuguese>
+  </message>
+  <message id="give_up">
+    <usage>Button on guesing games, eg at end of cadence presentation</usage>
+    <english>I give up!</english>
+    <spanish>¡Me rindo!</spanish>
+    <portuguese>Desisto!</portuguese>
+  </message>
+  <message id="show_me">
+    <usage>Button on split text into phrases game</usage>
+    <english>Show me</english>
+    <spanish>Muéstrame</spanish>
+    <portuguese>Mostre-me</portuguese>
+  </message>
+  <message id="game_right">
+    <usage>Word or very short phrase, including punctuation, to prefix the full answer when correctly guessed (see "where manuscripts found" game)</usage>
+    <english>CORRECT -</english>
+    <spanish>CORRECTO -</spanish>
+    <portuguese>CORRECTO - </portuguese>
+  </message>
+  <message id="game_wrong">
+    <usage>Word or very short phrase, including punctuation, to prefix the full answer when incorrectly guessed (see "where manuscripts found" game)</usage>
+    <english>WRONG -</english>
+    <spanish>INCORRECTO -</spanish>
+    <portuguese>INCORRECTO - </portuguese>
+  </message>
+  <message id="game_score">
+    <usage>Heading or phrase before colon indicating final or running score (see "where manuscripts found" game)</usage>
+    <english>Score</english>
+    <spanish>Puntuación</spanish>
+    <portuguese>Pontuação</portuguese>
+  </message>
+  <message id="game_more">
+    <usage>Phrase to follow the number (as digits) of further questions (see "where manuscripts found" game)</usage>
+    <english>more questions</english>
+    <spanish>preguntas más</spanish>
+    <portuguese>perguntas mais</portuguese>
+  </message>
+  <message id="game_penult">
+    <usage>Exactly the same uses as game_more, but singular to follow the number 1</usage>
+    <english>more question</english>
+    <spanish>pregunta más</spanish>
+    <portuguese>pergunta mais</portuguese>
+  </message>
+  <message id="game_next">
+    <usage>Button label for next question (see "where manuscripts found" game)</usage>
+    <english>Next</english>
+    <spanish>Siguiente</spanish>
+    <portuguese>Seguinte</portuguese>
+  </message>
+  <message id="survive_head">
+    <usage>Main heading/instruction on game to guess where manuscript was found</usage>
+    <english>Where do you think this was found?</english>
+    <spanish>¿Dónde se halló este fragmento?</spanish>
+    <portuguese>Onde acha que o fragmento foi encontrado?</portuguese>
+  </message>
+  <message id="survive_para1">
+    <usage>Instruction on game to guess where manuscript was found</usage>
+    <english>When medieval manuscripts fell out of use, they were sometimes hidden, lost, or taken apart so that the parchment could be used for other purposes.  Some manuscript fragments have been found in strange places.</english>
+    <spanish>Cuando un manuscrito medieval caía en desuso sus hojas se escondían, se perdían o se arrancaban para utilizarse de nuevo. Algunos fragmentos manuscritos se han hallado en en lugares muy extraños.</spanish>
+    <portuguese>Quando um manuscrito medieval caía em desuso, era por vezes escondido, perdido ou reutilizado. Alguns fragmentos manuscritos foram encontrados em lugares muito estranhos.</portuguese>
+  </message>
+  <message id="survive_para2">
+    <usage>Instruction on game to guess where manuscript was found</usage>
+    <english>Look at the picture.  Where do you think this fragment was found?  Tap the answer you think is correct.</english>
+    <spanish>¿En dónde cree que fue hallado este fragmento de la imagen? Pulse la respuecta correcta.</spanish>
+    <portuguese>Olhe para a imagem. Onde acha que o fragmento foi encontrado? Selecione a resposta certa.</portuguese>
+  </message>
+  <message id="survive_opt0">
+    <usage>A choice offered as the answer in the game to guess where manuscript was found</usage>
+    <english>Preserved in a bog</english>
+    <spanish>En pantanos</spanish>
+    <portuguese>Preservado em pântanos</portuguese>
+  </message>
+  <message id="survive_opt1">
+    <usage>A choice offered as the answer in the game to guess where manuscript was found</usage>
+    <english>Stuck onto the cover of a new book</english>
+    <spanish>Pegados a la cubierta de un libro nuevo</spanish>
+    <portuguese>Agarrado a capa de um novo livro</portuguese>
+  </message>
+  <message id="survive_opt2">
+    <usage>A choice offered as the answer in the game to guess where manuscript was found</usage>
+    <english>Used as fly leaves</english>
+    <spanish>Como hojas de guarda</spanish>
+    <portuguese>Usado como proteções de capa</portuguese>
+  </message>
+  <message id="survive_opt3">
+    <usage>A choice offered as the answer in the game to guess where manuscript was found</usage>
+    <english>Used to strengthen the spine of a book</english>
+    <spanish>Reforzando una encuadernación</spanish>
+    <portuguese>Reforçando uma encadernação</portuguese>
+  </message>
+  <message id="survive_opt4">
+    <usage>A choice offered as the answer in the game to guess where manuscript was found</usage>
+    <english>Inside a clock</english>
+    <spanish>Dentro de un reloj</spanish>
+    <portuguese>Dentro de um relógio</portuguese>
+  </message>
+  <message id="survive_opt5">
+    <usage>A choice offered as the answer in the game to guess where manuscript was found</usage>
+    <english>Inside a cushion</english>
+    <spanish>Dentro de un cojín</spanish>
+    <portuguese>Dentro de uma almofada</portuguese>
+  </message>
+  <message id="survive_ans0">
+    <usage>Full answer to 1st question in the game to guess where manuscript was found</usage>
+    <english>The Faddan More Psalter was discovered in an Irish bog in 2006, by a worker cutting peat. It dates from ca. 800 AD.</english>
+    <spanish>El salterio Faddan More fue descubierto en un pantano irlandés en el año 2006 cuando un trabajador se encontraba cortando turba.</spanish>
+    <portuguese>O saltério Faddan More foi encontrado num pântano irlandês em 2006 quando um trabalhador se encontrava a cortar turfa. Data de 800 D. C.</portuguese>
+  </message>
+  <message id="survive_ans1">
+    <usage>Full answer to 2nd question in the game to guess where manuscript was found</usage>
+    <english>One of the weak points of a book is the join between the pages and the cover. It’s very common to use a sheet of spare parchment, stuck onto the cover, to join them strongly together. It is usually impossible to read the stuck-down side, even if it has been removed from the cover. This manuscript is now Fragment 26 in the Abbey of Santo Domingo de Silos.</english>
+    <spanish>Uno de los puntos débiles de los libros es el punto de unión entre las páginas y la cubierta. Una práctica bastante común en la Edad Media era la de pegar una hoja de pergamino adicional a la cubierta para reforzar su unión al resto de manuscrito. A veces el pergamino adicional se extraía de un libro viejo o en desuso. En este caso normalmente la cara que se pegaba a la cubierta perdía su tinta lo que imposibilita su lectura al despegarse de la cubierta. Este manuscrito es el fragmento número 26 en la Abadía de Santo Domingo de Silos.</spanish>
+    <portuguese>Um dos pontos fracos dos livros é o ponto de união entre as páginas e a cobertura. Uma prática bastante comum na Idade Média era de colocar uma folha de pergaminho adicional na capa para reforçar a estrutura do manuscrito. Por vezes esta folha adicional era retirado de um livro em desuso. Neste caso normalmente a face que era virada para a capa perdia a tinta, o que impossibilitava a sua leitura ao ser despegado da capa. Esta fragmento é o número 26 na Abadia de Santo Domingo de Silos.</portuguese>
+  </message>
+  <message id="survive_ans2">
+    <usage>Full answer to 3rd question in the game to guess where manuscript was found</usage>
+    <english>The first and last pages of a book are the most likely to get knocked, torn, or damaged. It is still usual to have one or two blank pages at each end of a book, to protect the inner pages. In the middle ages, they used an old spare piece of parchment for this purpose.</english>
+    <spanish>Las primeras y últimas páginas de los libros son las que corren mayor peligro de sufrir cortes, rasgueos o cualquier otro daño. Aún se acostumbra dejar una o dos páginas en blanco en cada extremo de un libro para proteger sus páginas internas. Durante la Edad Media era frecuente usar para este propósito pergaminos de libros viejos o en desuso.</spanish>
+    <portuguese>As primeiras e últimas páginas dos livros são as que correm maior perigo de sofrer cortes, resgões ou outros danos. Ainda se deixam algumas páginas en branco em cada extremo de um livro para proteger as páginas do interior. Durante a Idade Média era frequente utilizar para este fim pergaminhos de livros velhos ou em desuso.</portuguese>
+  </message>
+  <message id="survive_ans3">
+    <usage>Full answer to 4th question in the game to guess where manuscript was found</usage>
+    <english>A medieval manuscript is made up of little booklets. A few sheets of parchment are folded, and sewn together into a booklet. Those booklets are sewn together onto strips of parchment, called “binding material”, and those strips help strengthen the spine of the book. Sometimes, those strips of parchment had a previous existence as part of a book themselves, and still have interesting information on. The strips shown here are preserved in the library of the Abbey of Santo Domingo de Silos. They have tiny fragments of Old Hispanic chant on them.</english>
+    <spanish>Los manuscritos medievales se elaboran ensamblando varios cuadernos. Cada cuaderno consta de unas cuantas hojas de pergamino doblados y unidas con una costura en el pliegue. Estos cuadernos se cosen a otros cuadernos utilizando tiras de pergamino que se conocen como “nervios” y que en conjunto refuerzan el lomo del libro. En algunos casos dichas tiras de pergamino se extraían de libros viejos y desvelan información interesante. Por ejemplo, estas tiras cosidas a un manuscrito de la Abadía de Santo Domingo de Silos pertenecieron a un manuscrito de canto hispánico.</spanish>
+    <portuguese>Os manuscritos medievais eram elaborados em diferentes cadernos. Cada caderno possui algumas folhas de pergaminho dobradas e unidas com uma costura. Estes cadernos eram cozidos a outros cadernos utilizando tiras de pergaminho que são conhecidos como «nervuras» e que em conjunto reforçam o meio do livro. Em alguns casos estas tiras de pergaminho eram retiradas de livros velhos e possuíam informação interessante. Por exemplo, estas tiras cozidas a um manuscrito da Abadia de Santo Domingo de Silos pertenciam a um manuscrito de canto Hispânico.</portuguese>
+  </message>
+  <message id="survive_ans4">
+    <usage>Full answer to 5th question in the game to guess where manuscript was found</usage>
+    <english>In the Dorset Record Office in Dorchester, England, there are two folios of this 13th century manuscript of chant and polyphony. The manuscript is of the Roman rite, and was written in England. It was found in 1964 in a cavity in the wall of a 15th-century clock chamber in Netherbury Church, Dorset.</english>
+    <spanish>En el Dorset Record Office de Dorchester, Inglaterra, se encontraron dos hojas de este manuscrito del siglo XIII que contienen canto llano y polifonía. Dicho manuscrito pertenece a la liturgia romana y se escribió en Inglaterra. Fue encontrado en 1964 dentro de un agujero en la pared de la caja de un reloj del siglo XV en la iglesia de Netherbury, Dorset, Inglaterra.</spanish>
+    <portuguese>No Dorset Record Office de Dorchester, Inglaterra, foram encontradas duas folhas deste pergaminho do século XIII que contêm cantochão e polifonia. Este manuscrito pertence à liturgia romana e foi escrito em Inglaterra. Foi encontrado em 1964 numa cavidade de uma parede de um relógio do século XV na igreja de Netherbury, Dorset, Inglaterra.</portuguese>
+  </message>
+  <message id="survive_ans5">
+    <usage>Full answer to 6th question in the game to guess where manuscript was found</usage>
+    <english>This is a folio of a 13th or 14th century manuscript now in the National Library of Wales in Aberystwyth that contains polyphony. In the 16th century, it was used as stuffing in a chair cushion in Machynlleth, in Wales.</english>
+    <spanish>En la Biblioteca Nacional de Gales en Aberystwyth se conserva esta hoja de un manuscrito del siglo XIII o XIV que contiene polifonía. En el siglo XVI dicha hoja fue utilizada como relleno de un cojín de un sillón, en Machynlleth, Gales.</spanish>
+    <portuguese>Na Biblioteca Nacional de Gales em Aberystwyth conserva-se esta folha de um manuscrito do século XIII ou XVI que contém polifonia. No século XVI esta folha foi utilizada como reforço de uma almofada de cadeira em Machynlleth, Gales.</portuguese>
+  </message>
+  <message id="readtext_head">
+    <usage>Main heading on game to try reading words</usage>
+    <english>Can you read the text?</english>
+    <spanish>¿Puede leer el texto?</spanish>
+    <portuguese>Consegue ler o texto?</portuguese>
+  </message>
+  <message id="readtext_para1">
+    <usage>First paragraph of instruction in game to try reading words</usage>
+    <english>This table shows you how the letters were written.  Many are very similar to the way we write them now, but “t” is quite different, and you may need to look hard to distinguish between “a” and “u”, and between “r” and “s”.</english>
+    <spanish>En este cuadro puede ver cómo se escribieron las letras. Muchas de ellas le parecerán familiares, pero otras, como la “t”, son muy diferentes. Tendrá que mirar con atención para poder distinguir entre la “a” y la “u”, y entre la “r” y la “s”</spanish>
+    <portuguese>Neste quadro pode ver como foram escritas as letras. Muitas delas parecer-lhe-ão familiares, enquanto que outras, como «t», são muito diferentes. Terá de olhar com atenção para distinguir entre as letras «a» e a «u» e também entre «r» e «s».</portuguese>
+  </message>
+  <message id="readtext_para2">
+    <usage>Second paragraph of instruction in game to try reading words</usage>
+    <english>Can you find these words?  Be careful - the scribe wrote some of them as abbreviations, sometimes signalled by small marks above the letters!  Tap each word on the manuscript picture when you find it.</english>
+    <spanish>¿Puede encontrar estas palabras? El escriba abrevia algunas de ellas, y estas abreviaturas están  señaladas con pequeñas marcas por encima de las letras. Pulse estas palabras en el manuscrito si las encuentra.</spanish>
+    <portuguese>Consegue encontrar estas palavras? O escrivão abrevia algumas, e estas abreviaturas estão assinaladas com pequenas marcas por cima das letras. Selecione estas palavras no manuscrito se as encontrar.</portuguese>
+  </message>
+  <message id="readtext_final">
+    <usage>Paragraph which appears at the end of the game to try reading words</usage>
+    <english>That's all!  You can now see the complete transcription below the picture.</english>
+    <spanish>¡Muy bien! Ahora puede ver la transcripción completa debajo de la imagen.</spanish>
+    <portuguese>Muito bem! Agora pode ver a trascrição completa por baixo da imagem.</portuguese>
+  </message>
+  <message id="readtext_john">
+    <usage>Name of the gospel in the Bible, to be used as a reference followed by chapter and verses, eg "(John 6:66-70)"</usage>
+    <english>John</english>
+    <spanish>Evangelio según San Juan</spanish>
+    <portuguese>Evangelho segundo São João</portuguese>
+  </message>
+  <message id="phrases_head">
+    <usage>Heading for the phrase-finding activity</usage>
+    <english>Find the pauses for breath</english>
+    <spanish>Encuentra las pausas para respirar</spanish>
+    <portuguese>Encontra as pausas para respirar</portuguese>
+  </message>
+  <message id="phrases_para1">
+    <usage>First paragraph introducing the phrase-finding activity</usage>
+    <english>The picture shows a chant with the Latin words written in modern type below each line; there is a translation below the picture. Can you guess where this text is likely to have been divided by pauses for breath? Tap the picture where you think each phrase ends.</english>
+    <spanish>En la imagen podemos ver el texto de un canto en latín  y escrito con caracteres modernos por debajo de cada línea.  ¿Puede adivinar en qué parte del texto se hacía una pausa para respirar? Pulse el lugar de la imagen en donde acaba cada frase.</spanish>
+    <portuguese>Na imagem podemos ver o texto de um canto em latim e escrito com caracteres modernos por baixo de cada linha. Consegue adivinhar em que parte do texto se fazia uma pausa para respirar? Carregue no lugar da imagem onde termina cada frase.</portuguese>
+  </message>
+  <message id="phrases_para2">
+    <usage>Second paragraph introducing the phrase-finding activity</usage>
+    <english>If you want to see one of the explanations again, you can tap at a place you have already found.</english>
+    <spanish>Si desea ver cualquier explicación de nuevo, vuelva a pulsar el final de frase.</spanish>
+    <portuguese>Se desejar ver alguma explicação novamente, carregue no final da frase.</portuguese>
+  </message>
+  <message id="phrases_more">
+    <usage>In phrase-finding activity this follows the number (digits) showing how many more are to be found</usage>
+    <english>more to find.</english>
+    <spanish>lugares por encontrar.</spanish>
+    <portuguese>mais para encontrar.</portuguese>
+  </message>
+  <message id="phrases_done">
+    <usage>In phrase-finding activity this is shown when all have been found</usage>
+    <english>You have found them all!</english>
+    <spanish>¡Los ha encontrado todos!</spanish>
+    <portuguese>Encontrou-os a todos!</portuguese>
+  </message>
+  <message id="phrases_trans1">
+    <usage>1st phrase of chant translation in phrase-finding activity</usage>
+    <english>God of peace</english>
+    <spanish>Dios de la paz</spanish>
+    <portuguese>Deus da paz</portuguese>
+  </message>
+  <message id="phrases_trans2">
+    <usage>2nd phrase of chant translation in phrase-finding activity</usage>
+    <english>sanctify you</english>
+    <spanish>os santifique</spanish>
+    <portuguese>te santifique</portuguese>
+  </message>
+  <message id="phrases_trans3">
+    <usage>3rd phrase of chant translation in phrase-finding activity</usage>
+    <english>to perfection</english>
+    <spanish>hasta la perfección</spanish>
+    <portuguese>à perfeição</portuguese>
+  </message>
+  <message id="phrases_trans4">
+    <usage>4th phrase of chant translation in phrase-finding activity</usage>
+    <english>and may your spirit,</english>
+    <spanish>y que vuestro espíritu entero,</spanish>
+    <portuguese>e o seu espírito,</portuguese>
+  </message>
+  <message id="phrases_trans5">
+    <usage>5th phrase of chant translation in phrase-finding activity</usage>
+    <english>soul and body</english>
+    <spanish>alma y cuerpo,</spanish>
+    <portuguese>alma e corpo</portuguese>
+  </message>
+  <message id="phrases_trans6">
+    <usage>6th phrase of chant translation in phrase-finding activity</usage>
+    <english>without blame</english>
+    <spanish>sin culpa,</spanish>
+    <portuguese>sem culpa</portuguese>
+  </message>
+  <message id="phrases_trans7">
+    <usage>7th phrase of chant translation in phrase-finding activity</usage>
+    <english>until the advent of our Lord</english>
+    <spanish>en el adviento de nuestro Señor</spanish>
+    <portuguese>até que o advento de nosso Senhor</portuguese>
+  </message>
+  <message id="phrases_trans8">
+    <usage>8th phrase of chant translation in phrase-finding activity</usage>
+    <english>Jesus Christ be preserved.</english>
+    <spanish>Jesucristo permanezca.</spanish>
+    <portuguese>Jesus Cristo seja preservado.</portuguese>
+  </message>
+  <message id="phrases_expl1">
+    <usage>Explanation of first break in the phrase-finding activity</usage>
+    <english>There is often a musical break after the first word or two. Perhaps one person started the chant alone, to establish the pitch and correct melody, and the break is before the choir joined in.</english>
+    <spanish>Normalmente hay una pausa musical después de cada palabra o par de palabras. Puede que una persona empezase cantando sola, para indicar la melodía correcta. Luego vendríá la pausa y un coro seguiría el canto.</spanish>
+    <portuguese>Encontramos muitas vezes uma paragem musical após a primeira ou segunda palavras. Poderia ser onde o coro se juntou depois de alguém começar o canto a solo, para afinar no tom e encontrar a melodia correta.</portuguese>
+  </message>
+  <message id="phrases_expl2">
+    <usage>Explanation of 2nd, 5th and 6th breaks in the phrase-finding activity</usage>
+    <english>Prepositions are words like “until, on, by, without, to” which combine with a noun (e.g. “advent”, “perfection” or “blame”) to add meaning to a sentence. This combination of preposition + noun often gets its own musical phrase in medieval chant. There is a breathing space just before it.</english>
+    <spanish>Las preposiciones, es decir, palabras como “a, ante, bajo, cabe, con”, preceden o siguen a sustantivos como “adviento”, “perfección” o “culpa”, para añadir información dentro de una oración.  En el canto medieval la preposición+sustantivo suele tener su propia frase musical precedida por una respiración.</spanish>
+    <portuguese>Preposições são palavras como «até, em, por, sem, parae» que combinam com um substantivo (ex: «advento», «perfeição» ou «culpa») para adicionar significado a uma frase. Esta combinação de preposição + substantivo muitas vezes tem a sua própria frase musical no canto medieval. Existe um espaço para respirar um pouco antes.</portuguese>
+  </message>
+  <message id="phrases_expl3">
+    <usage>Explanation of first break in the phrase-finding activity</usage>
+    <english>This is the end of a complete unit of text, followed by “and”.</english>
+    <spanish>Este es el final de una unidad completa de texto, seguido de “y”.</spanish>
+    <portuguese>Este é o final de uma unidade completa de texto, seguida por «e».</portuguese>
+  </message>
+  <message id="phrases_expl4">
+    <usage>Explanation of fourth break in the phrase-finding activity</usage>
+    <english>This is the middle of a list (“spirit, soul and body”). The whole list is too long to sing in one breath. This is a very common notation combination for the end of a phrase.</english>
+    <spanish>Esta es parte de una lista (“espíritu, alma y cuerpo”). La lista entera es demasiado larga para cantarla en un solo respiro. Ésta es una combinación notacional muy común para finales de frase.</spanish>
+    <portuguese>Este é o meio de uma lista («espírito, alma e corpo»). A lista inteira é muito longa para cantar apenas numa respiração. Esta combinação é muito comum para o final de uma frase.</portuguese>
+  </message>
+  <message id="phrases_expl7">
+    <usage>Explanation of seventh break in the phrase-finding activity</usage>
+    <english>The same notation shapes were used on “sanctificet vos” earlier! This is a very long noun phrase “of our Lord Jesus Christ” and the singers will have needed to take a breath.</english>
+    <spanish>¡Las mismas formas notacionales fueron usadas previamente en “sanctificet vos”! Ésta es una frase muy larga (“de nuestro Señor Jesucristo” ) y los cantores habrían necesitado respirar.</spanish>
+    <portuguese>As mesmas formas de notação foram usadas em «sanctificet vos» anteriormente! Esta é uma frase substantiva muito longa «do nosso Senhor Jesus Cristo» e os cantores teriam que ter tomado um fôlego.</portuguese>
+  </message>
+  <message id="phrases_expl8">
+    <usage>Explanation of eighth (end-of-chant) break in the phrase-finding activity</usage>
+    <english>Yes, there is always a phrase ending at the end of the chant!</english>
+    <spanish>¡Sí, siempre hay una cadencia al final del canto!</spanish>
+    <portuguese>Sim, existe sempre uma frase que termina no final do canto!</portuguese>
+  </message>
+  <message id="tryceap_head">
+    <usage>Heading for the try-copying-music activity</usage>
+    <english>Try copying the music</english>
+    <spanish>Prueba a copiar la música</spanish>
+    <portuguese>Tenta copiar a música</portuguese>
+  </message>
+  <message id="tryceap_para1">
+    <usage>First paragraph of explanation for the try-copying-music activity</usage>
+    <english>We transcribe the chants into a computer program. This allows us to compare hundreds of chants at once, to find recurring notational patterns. Try out our transcription software, by copying the line of chant shown in the manuscript image. Drag the musical signs from the left into the boxes. If you make a mistake, you can move the signs around, or drag them back to anywhere in the left-hand column to delete them.</english>
+    <spanish>Transcribimos cantos con un programa informático que nos permite comparar cientos de cantos y encontrar patrones notacionales. Pruebe nuestro programa de transcripción: transcriba el canto en la foto del manuscrito. Pulse los signos musicales a la izquierda y desplácelos para colocarlos dentro de cada espacio. Si no acierta puede: mover los signos a otros espacios, o borrar los signos regresándolos a la columna de la izquierda.</spanish>
+    <portuguese>Transcrevemos os cantos com um programa informático que nos permite comparar centenas de cantos e encontrar padrões de notação. Experimente o nosso programa de notação: transcreva o canto na imagem do manuscrito. Selecione os símbolos musicais da esquerda e desloque-os para os colocar dentro de cada espaço. Se não acertar pode: mover os símbolos para outros espaços, ou arrastá-los novamente para a coluna da esquerda.</portuguese>
+  </message>
+  <message id="tryceap_para2">
+    <usage>Second paragraph of explanation for the try-copying-music activity</usage>
+    <english>The musical signs rise and fall on the page to indicate the rise and fall of the melody: for example, the ones labelled “NHL” on the left tell us to sing a note, a higher note, and then a lower note.</english>
+    <spanish>Los trazos de los signos musicales ascienden o descienden para indicar el ascenso o descenso de la melodía. Por ejemplo, “NHL” (a la izquierda) nos indican que hay que cantar una nota, seguida de una nota más aguda y luego de otra nota más grave.  (N: neutro; H: high: 'agudo'; L: low, 'grave')</spanish>
+    <portuguese>Os traços dos símbolos musicais ascendem ou descendem para indicar a ascensão ou descida da melodia. Por exemplo, 'NHL' (à esquerda) indica que vai cantar uma nota, seguida de uma mais aguda e logo outra mais grave. (N: neutro; H: high: 'agudo'; L: low, 'grave')</portuguese>
+  </message>
+  <message id="tryceap_init">
+    <usage>Initial text just above button in the try-copying-music activity</usage>
+    <english>Drag musical signs from the left into the boxes, copying the arrangement in the manuscript.  Then click this button to see how well you did!</english>
+    <spanish>Arrastre los signos musicales de la izquierda a los cuadros, copiando el arreglo en el manuscrito. A continuación, pulse este botón para averiguar o bien que lo hizo!</spanish>
+    <portuguese>Arraste os símbolos musicais da esquerda dos quadros, copiando o arranjo no manuscrito. De seguida, carregue neste botão para verificar como ficou.</portuguese>
+  </message>
+  <message id="tryceap_again">
+    <usage>Invitation to try to improve transcription and score again - just above button in the try-copying-music activity</usage>
+    <english>See if you can make the highlighted boxes look more like the manuscript picture, then click this button again to see your new score.</english>
+    <spanish>Intente hacer que los espacios resaltados se parezcan más a la foto del manuscrito. Después pulse este botón para ver su puntuación.</spanish>
+    <portuguese>Tente colocar os espaços ressaltados sejam parecidos com a imagem do manuscrito. Depois selecione este botão para ver a sua pontuação.</portuguese>
+  </message>
+  <message id="tryceap_blanks">
+    <usage>Hint that some boxes are still blank in the try-copying-music activity</usage>
+    <english>Make sure that you have put at least one musical sign in every box.</english>
+    <spanish>Asegúrese de haber colocado al menos un signo musical en cada cuadro.</spanish>
+    <portuguese>Certifique-se de ter colocado pelo menos um símbolo em cada quadro.</portuguese>
+  </message>
+  <message id="tryceap_count">
+    <usage>Hint that the wrong number of neumes appear in some boxes in the try-copying-music activity</usage>
+    <english>Make sure that you have put the right number of musical signs in each box.  You need to look carefully at the picture, because some signs are very faint.  If there is a combined sign, use that instead of making up the pattern from smaller pieces.</english>
+    <spanish>Asegúrese de que ha colocado el número correcto de signos en cada cuadro. Usted necesita mirar cuidadosamente la imagen, porque algunos signos son muy débiles. Si hay un signo combinado, use eso en vez de componer el patrón de piezas más pequeñas.</spanish>
+    <portuguese>Certifique-se que colocou o número certo de símbolos em cada quadro. Precisa de ver cuidadosamente a imagem, pois alguns símbolos são muito débeis. Se tem uma combinação, use esse em vez de compôr o padrão de peças mais pequenas.</portuguese>
+  </message>
+  <message id="tryceap_shape">
+    <usage>Hint that incorrect symbols have been used in some places in the try-copying-music activity</usage>
+    <english>Look carefully again at the musical signs and make sure that the ones you have used are the closest match to those in the manuscript.</english>
+    <spanish>Vuelva a ver los signos musicales y asegúrese de que los que ha usado son los más parecidos a los del manuscrito.</spanish>
+    <portuguese>Veja novamente os símbolos musicais e certifique-se que utilizou os que são mais parecidos aos do manuscrito.</portuguese>
+  </message>
+  <message id="tryceap_pos">
+    <usage>Hint that some symbols are out of position in the try-copying-music activity</usage>
+    <english>In each box, try to position the musical signs in relation to each other so that they look the same as in the manuscript.  Also, try to place the first sign in a box at the correct height compared with the last sign of the previous box.</english>
+    <spanish>Intente colocar en cada cuadro los signos musicales en el mismo orden que en el manuscrito. Intente colocar cada signo a la misma altura respecto al texto, tal y como está en el manuscrito.</spanish>
+    <portuguese>Tente colocar em cada quadro os símbolos musicais na mesma ordem em que estão no manuscrito. Tente colocar cada símbolo no mesmo local do texto correspondente, tal como está no manuscrito.</portuguese>
+  </message>
+  <message id="tryceap_good">
+    <usage>Very good - no suggestion for improvement in the try-copying-music activity</usage>
+    <english>Well done!</english>
+    <spanish>¡Muy bien!</spanish>
+    <portuguese>Muito bem!</portuguese>
+  </message>
+</messages>

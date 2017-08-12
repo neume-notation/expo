@@ -1,0 +1,69 @@
+{ "timings": [
+    { "name":   "talk-beginning",
+      "time":   0
+    }
+  , { "name":   "textbits-main",
+      "time":   9300
+    }
+  , { "name":   "textbits-verse",
+      "time":   10900
+    }
+  , { "name":   "textbits-repeat",
+      "time":   26400
+    }
+  , { "name":   "textbits-rep-gloria",
+      "time":   38300
+    }
+  , { "name":   "textbits-hymn",
+      "time":   45800
+    }
+  , { "name":   "textbits-1",
+      "time":   56000
+    }
+  , { "name":   "textbits-completuria",
+      "time":   59100
+    }
+  , { "name":   "textbits-newbase",
+      "time":   63900
+    }
+  , { "name":   "textbits-hl-pr",
+      "time":   68100
+    }
+  , { "name":   "textbits-benedictio",
+      "time":   70400
+    }
+  , { "name":   "textbits-ad-m",
+      "time":   75000
+    }
+  , { "name":   "textbits-aeterne",
+      "time":   82500
+    }
+  , { "name":   "textbits-psalm-3",
+      "time":   89000
+    }
+  , { "name":   "textbits-psalm-50",
+      "time":   90000
+    }
+  , { "name":   "textbits-psalm-56",
+      "time":   91300
+    }
+  , { "name":   "textbits-erit",
+      "time":   106000
+    }
+  , { "name":   "textbits-erit-verse",
+      "time":   111000
+    }
+  , { "name":   "textbits-2",
+      "time":   113900
+    }
+  , { "name":   "textbits-cont-hl",
+      "time":   113901
+    }
+  , { "name":   "textbits-clear",
+      "time":   135099
+    }
+  , { "name":   "textbits-3",
+      "time":   135100
+    }
+  ]
+}

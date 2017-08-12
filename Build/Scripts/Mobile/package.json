@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "postinstall": "bower install",
+    "build": "pulp build",
+    "html":  "pulp run",
+    "clean": "rm -rf src/Base/*.js src/Base/*.purs bower_components node_modules output .psci_modules .pulp-cache"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.0"
+  },
+  "devDependencies": {
+    "pulp": "^11.0.0",
+    "purescript": "^0.11.0",
+    "purescript-psa": "^0.5.0"
+  }
+}

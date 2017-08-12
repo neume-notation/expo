@@ -1,0 +1,670 @@
+{ "intro_hl_text":
+    { "coimbra": { "img":  "@{StaticR expo_img_intro_ca_hl_text_png}"
+                 , "geom": {"x": 0, "y": 0, "w": 810, "h": 1019} }
+    , "lamego":  { "img":  "@{StaticR expo_img_intro_lo_hl_text_png}"
+                 , "geom": {"x": 134, "y": 748, "w": 630, "h": 232} }
+    , "leon":    { "img":  "@{StaticR expo_img_intro_l5_hl_text_png}"
+                 , "geom": {"x": 0, "y": 0, "w": 694, "h": 1047} }
+    , "madrid":  { "img":  "@{StaticR expo_img_intro_b1_hl_text_png}"
+                 , "geom": {"x": 0, "y": 0, "w": 730, "h": 1047} }
+    }
+, "intro_hl_music":
+    { "coimbra": { "img":  "@{StaticR expo_img_intro_ca_hl_music_png}"
+                 , "geom": {"x": 0, "y": 0, "w": 810, "h": 1019} }
+    , "lamego":  { "img":  "@{StaticR expo_img_intro_lo_hl_music_png}"
+                 , "geom": {"x": 32, "y": 13, "w": 740, "h": 852} }
+    , "leon":    { "img":  "@{StaticR expo_img_intro_l5_hl_music_png}"
+                 , "geom": {"x": 0, "y": 0, "w": 694, "h": 1047} }
+    , "madrid":  { "img":  "@{StaticR expo_img_intro_b1_hl_music_png}"
+                 , "geom": {"x": 0, "y": 0, "w": 730, "h": 1047} }
+    }
+, "intro_writing":
+    { "coimbra": { "img":  "@{StaticR expo_img_intro_ca_writing_png}"
+                 , "geom": {"x": 120, "y": 344, "w": 690, "h": 297} }
+    , "lamego":  { "img":  "@{StaticR expo_img_intro_lo_writing_png}"
+                 , "geom": {"x": 12, "y": 519, "w": 749, "h": 411} }
+    , "leon":    { "img":  "@{StaticR expo_img_intro_l5_writing_png}"
+                 , "geom": {"x": 186, "y": 49, "w": 460, "h": 335} }
+    , "madrid":  { "img":  "@{StaticR expo_img_intro_b1_writing_png}"
+                 , "geom": {"x": 195, "y": 434, "w": 524, "h": 213} }
+    }
+, "intro_neume1":
+    { "coimbra": { "img":  "@{StaticR expo_img_music_ca_angled_NH_png}"
+                 , "geom": {"x": 182, "y": 30, "w": 211, "h": 168} }
+    , "lamego":  { "img":  "@{StaticR expo_img_music_lo_NHL_png}"
+                 , "geom": {"x": 170, "y": 118, "w": 151, "h": 105} }
+    , "leon":    { "img":  "@{StaticR expo_img_music_l5_gapped_NHL_png}"
+                 , "geom": {"x": 492, "y": 231, "w": 130, "h": 312} }
+    , "madrid":  { "img":  "@{StaticR expo_img_music_b1_angled_NH_png}"
+                 , "geom": {"x": 69, "y": 413, "w": 150, "h": 312} }
+    }
+, "intro_neume2":
+    { "coimbra": { "img":  "@{StaticR expo_img_music_ca_curved_NH_png}"
+                 , "geom": {"x": 172, "y": 289, "w": 142, "h": 216} }
+    , "lamego":  { "img":  "@{StaticR expo_img_music_lo_curved_NL_png}"
+                 , "geom": {"x": 153, "y": 320, "w": 138, "h": 138} }
+    , "leon":    { "img":  "@{StaticR expo_img_music_l5_curved_NH_png}"
+                 , "geom": {"x": 49, "y": 288, "w": 120, "h": 308} }
+    , "madrid":  { "img":  "@{StaticR expo_img_music_b1_curved_NH_png}"
+                 , "geom": {"x": 99, "y": 732, "w": 299, "h": 202} }
+    }
+, "intro_short_syl":
+    { "coimbra": { "img":  "@{StaticR expo_img_intro_ca_short_syl_png}"
+                 , "geom": {"x": 444, "y": 274, "w": 127, "h": 25} }
+    , "lamego":  { "img":  "@{StaticR expo_img_intro_lo_short_syl_png}"
+                 , "geom": {"x": 92, "y": 702, "w": 216, "h": 31} }
+    , "leon":    { "img":  "@{StaticR expo_img_intro_l5_short_syl_png}"
+                 , "geom": {"x": 373, "y": 622, "w": 310, "h": 25} }
+    , "madrid":  { "img":  "@{StaticR expo_img_intro_b1_short_syl_png}"
+                 , "geom": {"x": 240, "y": 634, "w": 440, "h": 30} }
+    }
+, "intro_long_syl":
+    { "coimbra": { "img":  "@{StaticR expo_img_intro_ca_long_syl_png}"
+                 , "geom": {"x": 509, "y": 367, "w": 127, "h": 25} }
+    , "lamego":  { "img":  "@{StaticR expo_img_intro_lo_long_syl_png}"
+                 , "geom": {"x": 380, "y": 861, "w": 345, "h": 31} }
+    , "leon":    { "img":  "@{StaticR expo_img_intro_l5_long_syl_png}"
+                 , "geom": {"x": 240, "y": 453, "w": 190, "h": 25} }
+    , "madrid":  { "img":  "@{StaticR expo_img_intro_b1_long_syl_png}"
+                 , "geom": {"x": 173, "y": 371, "w": 328, "h": 211} }
+    }
+, "intro_phr_prxmo":
+    { "coimbra": { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 288, "y": 171, "w": 5, "h": 32} }
+    , "lamego":  { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 288, "y": 171, "w": 5, "h": 32} }
+    , "leon":    { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 288, "y": 171, "w": 5, "h": 32} }
+    , "madrid":  { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 288, "y": 171, "w": 5, "h": 32} }
+    }
+, "intro_phr_dmnus":
+    { "coimbra": { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 420, "y": 235, "w": 5, "h": 32} }
+    , "lamego":  { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 420, "y": 235, "w": 5, "h": 32} }
+    , "leon":    { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 420, "y": 235, "w": 5, "h": 32} }
+    , "madrid":  { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 420, "y": 235, "w": 5, "h": 32} }
+    }
+, "intro_phr_sbrie":
+    { "coimbra": { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 679, "y": 235, "w": 5, "h": 32} }
+    , "lamego":  { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 679, "y": 235, "w": 5, "h": 32} }
+    , "leon":    { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 679, "y": 235, "w": 5, "h": 32} }
+    , "madrid":  { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 679, "y": 235, "w": 5, "h": 32} }
+    }
+, "intro_phr_vobis":
+    { "coimbra": { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 282, "y": 303, "w": 5, "h": 32} }
+    , "lamego":  { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 282, "y": 303, "w": 5, "h": 32} }
+    , "leon":    { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 282, "y": 303, "w": 5, "h": 32} }
+    , "madrid":  { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 282, "y": 303, "w": 5, "h": 32} }
+    }
+, "intro_phr_terra":
+    { "coimbra": { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 509, "y": 303, "w": 5, "h": 32} }
+    , "lamego":  { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 509, "y": 303, "w": 5, "h": 32} }
+    , "leon":    { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 509, "y": 303, "w": 5, "h": 32} }
+    , "madrid":  { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 509, "y": 303, "w": 5, "h": 32} }
+    }
+, "intro_phr_mala":
+    { "coimbra": { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 185, "y": 372, "w": 5, "h": 32} }
+    , "lamego":  { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 185, "y": 372, "w": 5, "h": 32} }
+    , "leon":    { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 185, "y": 372, "w": 5, "h": 32} }
+    , "madrid":  { "img":  "@{StaticR expo_img_intro_divider_png}"
+                 , "geom": {"x": 185, "y": 372, "w": 5, "h": 32} }
+    }
+, "intro_proximo":
+    { "coimbra": { "img":  "@{StaticR expo_img_intro_hl_proximo_png}"
+                 , "geom": {"x": 10, "y": 41, "w": 289, "h": 139} }
+    , "lamego":  { "img":  "@{StaticR expo_img_intro_hl_proximo_png}"
+                 , "geom": {"x": 10, "y": 41, "w": 289, "h": 139} }
+    , "leon":    { "img":  "@{StaticR expo_img_intro_hl_proximo_png}"
+                 , "geom": {"x": 10, "y": 41, "w": 289, "h": 139} }
+    , "madrid":  { "img":  "@{StaticR expo_img_intro_hl_proximo_png}"
+                 , "geom": {"x": 10, "y": 41, "w": 289, "h": 139} }
+    }
+, "intro_dominus":
+    { "coimbra": { "img":  "@{StaticR expo_img_intro_hl_dominus_png}"
+                 , "geom": {"x": 297, "y": 125, "w": 192, "h": 120} }
+    , "lamego":  { "img":  "@{StaticR expo_img_intro_hl_dominus_png}"
+                 , "geom": {"x": 297, "y": 125, "w": 192, "h": 120} }
+    , "leon":    { "img":  "@{StaticR expo_img_intro_hl_dominus_png}"
+                 , "geom": {"x": 297, "y": 125, "w": 192, "h": 120} }
+    , "madrid":  { "img":  "@{StaticR expo_img_intro_hl_dominus_png}"
+                 , "geom": {"x": 297, "y": 125, "w": 192, "h": 120} }
+    }
+, "intro_creabo":
+    { "coimbra": { "img":  "@{StaticR expo_img_intro_hl_creabo_png}"
+                 , "geom": {"x": 154, "y": 316, "w": 334, "h": 204} }
+    , "lamego":  { "img":  "@{StaticR expo_img_intro_hl_creabo_png}"
+                 , "geom": {"x": 154, "y": 316, "w": 334, "h": 204} }
+    , "leon":    { "img":  "@{StaticR expo_img_intro_hl_creabo_png}"
+                 , "geom": {"x": 154, "y": 316, "w": 334, "h": 204} }
+    , "madrid":  { "img":  "@{StaticR expo_img_intro_hl_creabo_png}"
+                 , "geom": {"x": 154, "y": 316, "w": 334, "h": 204} }
+    }
+, "music_NHL":
+    { "coimbra": { "img":  "@{StaticR expo_img_music_ca_NHL_png}"
+                 , "geom": {"x": 385, "y": 33, "w": 211, "h": 147} }
+    , "lamego":  { "img":  "@{StaticR expo_img_music_lo_NHL_png}"
+                 , "geom": {"x": 170, "y": 118, "w": 151, "h": 105} }
+    , "leon":    { "img":  "@{StaticR expo_img_music_l5_NHL_png}"
+                 , "geom": {"x": 676, "y": 248, "w": 75, "h": 213} }
+    , "madrid":  { "img":  "@{StaticR expo_img_music_b1_NHL_png}"
+                 , "geom": {"x": 612, "y": 79, "w": 197, "h": 182} }
+    }
+, "music_compound":
+    { "coimbra": { "img":  "@{StaticR expo_img_music_ca_compound_1_png}"
+                 , "geom": {"x": 110, "y": 15, "w": 150, "h": 244} }
+    , "lamego":  { "img":  "@{StaticR expo_img_music_lo_compound_NHHH_png}"
+                 , "geom": {"x": 388, "y": 358, "w": 328, "h": 343} }
+    , "leon":    { "img":  "@{StaticR expo_img_music_l5_compound_NHHH_png}"
+                 , "geom": {"x": 166, "y": 447, "w": 188, "h": 354} }
+    , "madrid":  { "img":  "@{StaticR expo_img_music_b1_compound_1_png}"
+                 , "geom": {"x": 181, "y": 92, "w": 159, "h": 287} }
+    }
+, "music_compound2":
+    { "coimbra": { "img":  "@{StaticR expo_img_music_ca_compound_2_png}"
+                 , "geom": {"x": 250, "y": 5, "w": 254, "h": 254} }
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_music_b1_compound_2_png}"
+                 , "geom": {"x": 226, "y": 508, "w": 193, "h": 216} }
+    }
+, "music_NH_a":
+    { "coimbra": { "img":  "@{StaticR expo_img_music_ca_angled_NH_png}"
+                 , "geom": {"x": 182, "y": 30, "w": 211, "h": 168} }
+    , "lamego":  { "img":  "@{StaticR expo_img_music_lo_angled_NH_png}"
+                 , "geom": {"x": 88, "y": 706, "w": 164, "h": 163} }
+    , "leon":    { "img":  "@{StaticR expo_img_music_l5_angled_NH_png}"
+                 , "geom": {"x": 184, "y": 465, "w": 132, "h": 223} }
+    , "madrid":  { "img":  "@{StaticR expo_img_music_b1_angled_NH_png}"
+                 , "geom": {"x": 69, "y": 413, "w": 150, "h": 312} }
+    }
+, "music_NH_w":
+    { "coimbra": { "img":  "@{StaticR expo_img_music_ca_curved_NH_png}"
+                 , "geom": {"x": 172, "y": 289, "w": 142, "h": 216} }
+    , "lamego":  { "img":  "@{StaticR expo_img_music_lo_curved_NH_png}"
+                 , "geom": {"x": 144, "y": 460, "w": 194, "h": 243} }
+    , "leon":    { "img":  "@{StaticR expo_img_music_l5_curved_NH_png}"
+                 , "geom": {"x": 49, "y": 288, "w": 120, "h": 308} }
+    , "madrid":  { "img":  "@{StaticR expo_img_music_b1_curved_NH_png}"
+                 , "geom": {"x": 99, "y": 732, "w": 299, "h": 202} }
+    }
+, "music_shape3":
+    { "coimbra": { "img":  "@{StaticR expo_img_music_ca_gapped_NH_png}"
+                 , "geom": {"x": 465, "y": 296, "w": 160, "h": 220} }
+    , "lamego":  { "img":  "@{StaticR expo_img_music_lo_angled_NL_png}"
+                 , "geom": {"x": 233, "y": 203, "w": 146, "h": 127} }
+    , "leon":    { "img":  "@{StaticR expo_img_music_l5_NHL_png}"
+                 , "geom": {"x": 676, "y": 248, "w": 75, "h": 213} }
+    , "madrid":  { "img":  "@{StaticR expo_img_music_b1_gapped_NH_png}"
+                 , "geom": {"x": 367, "y": 276, "w": 156, "h": 274} }
+    }
+, "music_shape4":
+    { "coimbra": null
+    , "lamego":  { "img":  "@{StaticR expo_img_music_lo_curved_NL_png}"
+                 , "geom": {"x": 153, "y": 320, "w": 138, "h": 138} }
+    , "leon":    { "img":  "@{StaticR expo_img_music_l5_gapped_NHL_png}"
+                 , "geom": {"x": 492, "y": 231, "w": 130, "h": 312} }
+    , "madrid":  { "img":  "@{StaticR expo_img_music_b1_gapped_NH_2_png}"
+                 , "geom": {"x": 137, "y": 162, "w": 207, "h": 116} }
+    }
+, "cadence_final":
+    { "coimbra": { "img":  "@{StaticR expo_img_cadence_ca_cadence_final_png}"
+                 , "geom": {"x": 293, "y": 555, "w": 175, "h": 25} }
+    , "lamego":  null
+    , "leon":    { "img":  "@{StaticR expo_img_cadence_l5_cadence_final_png}"
+                 , "geom": {"x": 32, "y": 600, "w": 200, "h": 25} }
+    , "madrid":  { "img":  "@{StaticR expo_img_cadence_b1_cadence_final_png}"
+                 , "geom": {"x": 143, "y": 329, "w": 488, "h": 173} }
+    }
+, "cadence_other":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_cadence_b1_cadence_other_png}"
+                 , "geom": {"x": 152, "y": 109, "w": 556, "h": 173} }
+    }
+, "cadence_eg":
+    { "coimbra": { "img":  "@{StaticR expo_img_cadence_ca_cadence_example_png}"
+                 , "geom": {"x": 397, "y": 487, "w": 261, "h": 200} }
+    , "lamego":  { "img":  "@{StaticR expo_img_cadence_lo_cadence_example_png}"
+                 , "geom": {"x": 224, "y": 73, "w": 254, "h": 324} }
+    , "leon":    { "img":  "@{StaticR expo_img_cadence_l5_cadence_example_png}"
+                 , "geom": {"x": 82, "y": 521, "w": 399, "h": 171} }
+    , "madrid":  { "img":  "@{StaticR expo_img_cadence_b1_cadence_example_png}"
+                 , "geom": {"x": 388, "y": 540, "w": 412, "h": 155} }
+    }
+, "cadence_ans":
+    { "coimbra": { "img":  "@{StaticR expo_img_cadence_ca_cadence_answer_png}"
+                 , "geom": {"x": 212, "y": 213, "w": 236, "h": 236} }
+    , "lamego":  { "img":  "@{StaticR expo_img_cadence_lo_cadence_answer_png}"
+                 , "geom": {"x": 288, "y": 261, "w": 511, "h": 285} }
+    , "leon":    { "img":  "@{StaticR expo_img_cadence_l5_cadence_answer_png}"
+                 , "geom": {"x": 0, "y": 75, "w": 810, "h": 600} }
+    , "madrid":  { "img":  "@{StaticR expo_img_cadence_b1_cadence_answer_png}"
+                 , "geom": {"x": 465, "y": 24, "w": 262, "h": 224} }
+    }
+, "codex_item1":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    { "img":  "@{StaticR expo_img_codex_l5_codex_item1_png}"
+                 , "geom": {"x": 0, "y": 250, "w": 690, "h": 350} }
+    , "madrid":  { "img":  "@{StaticR expo_img_codex_b1_codex_item1_png}"
+                 , "geom": {"x": 400, "y": 0, "w": 400, "h": 550} }
+    }
+, "codex_item2":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_codex_b1_codex_item2_png}"
+                 , "geom": {"x": 0, "y": 550, "w": 250, "h": 200} }
+    }
+, "codex_pre_gap":
+    { "coimbra": null
+    , "lamego":  { "img":  "@{StaticR expo_img_codex_lo_codex_pre_gap_png}"
+                 , "geom": {"x": 0, "y": 300, "w": 400, "h": 200} }
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_codex_b1_codex_pre_gap_png}"
+                 , "geom": {"x": 0, "y": 500, "w": 400, "h": 500} }
+    }
+, "codex_post_gap":
+    { "coimbra": null
+    , "lamego":  { "img":  "@{StaticR expo_img_codex_lo_codex_post_gap_png}"
+                 , "geom": {"x": 405, "y": 0, "w": 380, "h": 250} }
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_codex_b1_codex_post_gap_png}"
+                 , "geom": {"x": 395, "y": 500, "w": 400, "h": 547} }
+    }
+, "codex_stitching":
+    { "coimbra": { "img":  "@{StaticR expo_img_codex_ca_stitching_png}"
+                 , "geom": {"x": 6, "y": 47, "w": 300, "h": 414} }
+    , "lamego":  { "img":  "@{StaticR expo_img_codex_lo_stitching_png}"
+                 , "geom": {"x": 247, "y": 8, "w": 174, "h": 307} }
+    , "leon":    { "img":  "@{StaticR expo_img_codex_l5_stitching_png}"
+                 , "geom": {"x": 356, "y": 547, "w": 306, "h": 451} }
+    , "madrid":  null
+    }
+, "useofms_chant":
+    { "coimbra": { "img":  "@{StaticR expo_img_useofms_ca_use_chant_png}"
+                 , "geom": {"x": 0, "y": 700, "w": 780, "h": 250} }
+    , "lamego":  { "img":  "@{StaticR expo_img_arrow_0_png}"
+                 , "geom": {"x": 65, "y": 70, "w": 80, "h": 50} }
+    , "leon":    { "img":  "@{StaticR expo_img_arrow_180_png}"
+                 , "geom": {"x": 614, "y": 316, "w": 80, "h": 50} }
+    , "madrid":  { "img":  "@{StaticR expo_img_useofms_b1_use_chant_png}"
+                 , "geom": {"x": 320, "y": 120, "w": 400, "h": 400} }
+    }
+, "useofms_prayer":
+    { "coimbra": { "img":  "@{StaticR expo_img_useofms_ca_use_prayer_png}"
+                 , "geom": {"x": 0, "y": 150, "w": 780, "h": 550} }
+    , "lamego":  null
+    , "leon":    { "img":  "@{StaticR expo_img_arrow_180_png}"
+                 , "geom": {"x": 614, "y": 517, "w": 80, "h": 50} }
+    , "madrid":  { "img":  "@{StaticR expo_img_useofms_b1_use_prayer_png}"
+                 , "geom": {"x": 320, "y": 500, "w": 400, "h": 300} }
+    }
+, "useofms_reading":
+    { "coimbra": null
+    , "lamego":  { "img":  "@{StaticR expo_img_arrow_45_png}"
+                 , "geom": {"x": 135, "y": 839, "w": 65, "h": 65} }
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_useofms_b1_use_reading_png}"
+                 , "geom": {"x": 0, "y": 0, "w": 350, "h": 900} }
+    }
+, "useofms_add1old":
+    { "coimbra": null
+    , "lamego":  { "img":  "@{StaticR expo_img_useofms_lo_use_add1_old_png}"
+                 , "geom": {"x": 0, "y": 550, "w": 810, "h": 200} }
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_useofms_b1_use_add1_old_png}"
+                 , "geom": {"x": 550, "y": 340, "w": 160, "h": 80} }
+    }
+, "useofms_add1new":
+    { "coimbra": null
+    , "lamego":  { "img":  "@{StaticR expo_img_useofms_lo_use_add1_new_png}"
+                 , "geom": {"x": 0, "y": 150, "w": 175, "h": 750} }
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_useofms_b1_use_add1_new_png}"
+                 , "geom": {"x": 690, "y": 300, "w": 110, "h": 670} }
+    }
+, "useofms_add2old":
+    { "coimbra": null
+    , "lamego":  { "img":  "@{StaticR expo_img_useofms_lo_use_add2_old_png}"
+                 , "geom": {"x": 0, "y": 550, "w": 810, "h": 200} }
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_arrow_180_png}"
+                 , "geom": {"x": 715, "y": 75, "w": 80, "h": 50} }
+    }
+, "useofms_add2new":
+    { "coimbra": null
+    , "lamego":  { "img":  "@{StaticR expo_img_useofms_lo_use_add2_new_png}"
+                 , "geom": {"x": 0, "y": 150, "w": 175, "h": 750} }
+    , "leon":    null
+    , "madrid":  null
+    }
+, "useofms_marks1":
+    { "coimbra": null
+    , "lamego":  { "img":  "@{StaticR expo_img_useofms_lo_use_marks1_png}"
+                 , "geom": {"x": 184, "y": 197, "w": 138, "h": 178} }
+    , "leon":    null
+    , "madrid":  null
+    }
+, "useofms_marks2":
+    { "coimbra": null
+    , "lamego":  { "img":  "@{StaticR expo_img_useofms_lo_use_marks2_png}"
+                 , "geom": {"x": 389, "y": 190, "w": 172, "h": 218} }
+    , "leon":    null
+    , "madrid":  null
+    }
+, "useofms_add_ext":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_useofms_b1_use_add_ext_png}"
+                 , "geom": {"x": 0, "y": 500, "w": 800, "h": 540} }
+    }
+, "textbits_hl1":
+    { "coimbra": { "img":  "@{StaticR expo_img_arrow_30_png}"
+                 , "geom": {"x": 14, "y": 103, "w": 75, "h": 56} }
+    , "lamego":  { "img":  "@{StaticR expo_img_arrow_180_png}"
+                 , "geom": {"x": 638, "y": 81, "w": 80, "h": 50} }
+    , "leon":    { "img":  "@{StaticR expo_img_textbits_l5_textbits_pr_png}"
+                 , "geom": {"x": 539, "y": 824, "w": 205, "h": 176} }
+    , "madrid":  { "img":  "@{StaticR expo_img_arrow_0_png}"
+                 , "geom": {"x": 0, "y": 53, "w": 80, "h": 50} }
+    }
+, "textbits_hl2":
+    { "coimbra": { "img":  "@{StaticR expo_img_textbits_ca_textbits_verse_png}"
+                 , "geom": {"x": 0, "y": 300, "w": 810, "h": 200} }
+    , "lamego":  { "img":  "@{StaticR expo_img_textbits_lo_textbits_lds_png}"
+                 , "geom": {"x": 0, "y": 380, "w": 500, "h": 100} }
+    , "leon":    { "img":  "@{StaticR expo_img_textbits_l5_textbits_am_png}"
+                 , "geom": {"x": 372, "y": 97, "w": 284, "h": 114} }
+    , "madrid":  { "img":  "@{StaticR expo_img_arrow_0_png}"
+                 , "geom": {"x": 0, "y": 228, "w": 80, "h": 50} }
+    }
+, "textbits_hl3":
+    { "coimbra": { "img":  "@{StaticR expo_img_textbits_ca_textbits_cue_png}"
+                 , "geom": {"x": 400, "y": 420, "w": 410, "h": 60} }
+    , "lamego":  { "img":  "@{StaticR expo_img_textbits_lo_textbits_scr_png}"
+                 , "geom": {"x": 0, "y": 380, "w": 500, "h": 100} }
+    , "leon":    { "img":  "@{StaticR expo_img_arrow_30_png}"
+                 , "geom": {"x": 15, "y": 339, "w": 75, "h": 56} }
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_pnom_png}"
+                 , "geom": {"x": 225, "y": 331, "w": 516, "h": 139} }
+    }
+, "textbits_hl4":
+    { "coimbra": { "img":  "@{StaticR expo_img_textbits_ca_textbits_rep_png}"
+                 , "geom": {"x": 50, "y": 170, "w": 180, "h": 110} }
+    , "lamego":  { "img":  "@{StaticR expo_img_arrow_0_png}"
+                 , "geom": {"x": 40, "y": 70, "w": 80, "h": 50} }
+    , "leon":    { "img":  "@{StaticR expo_img_arrow_330_png}"
+                 , "geom": {"x": 104, "y": 388, "w": 75, "h": 56} }
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_pacem_png}"
+                 , "geom": {"x": 188, "y": 553, "w": 447, "h": 118} }
+    }
+, "textbits_hl5":
+    { "coimbra": { "img":  "@{StaticR expo_img_textbits_ca_textbits_rep_gloria_png}"
+                 , "geom": {"x": 250, "y": 179, "w": 218, "h": 175} }
+    , "lamego":  { "img":  "@{StaticR expo_img_textbits_lo_textbits_ext1_png}"
+                 , "geom": {"x": 120, "y": 80, "w": 20, "h": 700} }
+    , "leon":    { "img":  "@{StaticR expo_img_textbits_l5_textbits_cue_png}"
+                 , "geom": {"x": 224, "y": 534, "w": 210, "h": 128} }
+    , "madrid":  { "img":  "@{StaticR expo_img_arrow_0_png}"
+                 , "geom": {"x": 0, "y": 831, "w": 80, "h": 50} }
+    }
+, "textbits_hl6":
+    { "coimbra": { "img":  "@{StaticR expo_img_textbits_ca_textbits_hymn_png}"
+                 , "geom": {"x": 400, "y": 420, "w": 410, "h": 60} }
+    , "lamego":  { "img":  "@{StaticR expo_img_arrow_0_png}"
+                 , "geom": {"x": 40, "y": 520, "w": 80, "h": 50} }
+    , "leon":    { "img":  "@{StaticR expo_img_textbits_l5_textbits_rep_png}"
+                 , "geom": {"x": 555, "y": 289, "w": 145, "h": 339} }
+    , "madrid":  { "img":  "@{StaticR expo_img_arrow_0_png}"
+                 , "geom": {"x": -30, "y": 47, "w": 80, "h": 50} }
+    }
+, "textbits_hl7":
+    { "coimbra": { "img":  "@{StaticR expo_img_textbits_ca_textbits_cmplia_png}"
+                 , "geom": {"x": 252, "y": 279, "w": 377, "h": 229} }
+    , "lamego":  { "img":  "@{StaticR expo_img_textbits_lo_textbits_ext2_png}"
+                 , "geom": {"x": 120, "y": 80, "w": 20, "h": 700} }
+    , "leon":    { "img":  "@{StaticR expo_img_textbits_l5_textbits_prayer_png}"
+                 , "geom": {"x": 0, "y": 500, "w": 694, "h": 547} }
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_pr_png}"
+                 , "geom": {"x": 210, "y": 62, "w": 293, "h": 157} }
+    }
+, "textbits_hl8":
+    { "coimbra": { "img":  "@{StaticR expo_img_textbits_ca_textbits_pr_png}"
+                 , "geom": {"x": 633, "y": 141, "w": 171, "h": 259} }
+    , "lamego":  { "img":  "@{StaticR expo_img_arrow_0_png}"
+                 , "geom": {"x": 40, "y": 750, "w": 80, "h": 50} }
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_arrow_0_png}"
+                 , "geom": {"x": -30, "y": 200, "w": 80, "h": 50} }
+    }
+, "textbits_hl9":
+    { "coimbra": { "img":  "@{StaticR expo_img_textbits_ca_textbits_bene_png}"
+                 , "geom": {"x": 0, "y": 51, "w": 410, "h": 186} }
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_arrow_45_png}"
+                 , "geom": {"x": -19, "y": 438, "w": 65, "h": 65} }
+    }
+, "textbits_hl10":
+    { "coimbra": { "img":  "@{StaticR expo_img_textbits_ca_textbits_am_png}"
+                 , "geom": {"x": 0, "y": 670, "w": 810, "h": 110} }
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_ant_png}"
+                 , "geom": {"x": 90, "y": 330, "w": 310, "h": 120} }
+    }
+, "textbits_hl11":
+    { "coimbra": { "img":  "@{StaticR expo_img_textbits_ca_textbits_aeterne_png}"
+                 , "geom": {"x": 0, "y": 670, "w": 810, "h": 110} }
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_ant_v_png}"
+                 , "geom": {"x": 90, "y": 330, "w": 310, "h": 120} }
+    }
+, "textbits_hl12":
+    { "coimbra": { "img":  "@{StaticR expo_img_textbits_ca_textbits_ps3_png}"
+                 , "geom": {"x": 0, "y": 670, "w": 810, "h": 110} }
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_al_png}"
+                 , "geom": {"x": 75, "y": 430, "w": 320, "h": 145} }
+    }
+, "textbits_hl13":
+    { "coimbra": { "img":  "@{StaticR expo_img_textbits_ca_textbits_ps50_png}"
+                 , "geom": {"x": 0, "y": 670, "w": 810, "h": 110} }
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_adm_png}"
+                 , "geom": {"x": 21, "y": 398, "w": 277, "h": 204} }
+    }
+, "textbits_hl14":
+    { "coimbra": { "img":  "@{StaticR expo_img_textbits_ca_textbits_ps56_png}"
+                 , "geom": {"x": 0, "y": 670, "w": 810, "h": 110} }
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_arrow_45_png}"
+                 , "geom": {"x": 31, "y": 603, "w": 65, "h": 65} }
+    }
+, "textbits_hl15":
+    { "coimbra": { "img":  "@{StaticR expo_img_arrow_30_png}"
+                 , "geom": {"x": 20, "y": 830, "w": 75, "h": 56} }
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_arrow_0_png}"
+                 , "geom": {"x": -10, "y": 850, "w": 80, "h": 50} }
+    }
+, "textbits_hl16":
+    { "coimbra": { "img":  "@{StaticR expo_img_textbits_ca_textbits_erit_v_png}"
+                 , "geom": {"x": 0, "y": 820, "w": 810, "h": 200} }
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_arrow_180_png}"
+                 , "geom": {"x": 685, "y": 310, "w": 80, "h": 50} }
+    }
+, "textbits_hl17":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_arrow_180_png}"
+                 , "geom": {"x": 685, "y": 512, "w": 80, "h": 50} }
+    }
+, "textbits_hl18":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_vr2_png}"
+                 , "geom": {"x": 360, "y": 630, "w": 100, "h": 130} }
+    }
+, "textbits_hl19":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_adm2_png}"
+                 , "geom": {"x": 528, "y": 833, "w": 170, "h": 213} }
+    }
+, "textbits_hl20":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_arrow_315_png}"
+                 , "geom": {"x": 0, "y": 15, "w": 65, "h": 65} }
+    }
+, "textbits_hl21":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_xbene_png}"
+                 , "geom": {"x": 0, "y": 825, "w": 175, "h": 75} }
+    }
+, "textbits_hl22":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_xsono_png}"
+                 , "geom": {"x": 335, "y": 135, "w": 260, "h": 100} }
+    }
+, "textbits_hl23":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_xlaudes_png}"
+                 , "geom": {"x": 300, "y": 465, "w": 150, "h": 70} }
+    }
+, "textbits_hl24":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_xhymn_png}"
+                 , "geom": {"x": 490, "y": 510, "w": 120, "h": 65} }
+    }
+, "textbits_hl25":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_xacr_f_png}"
+                 , "geom": {"x": 305, "y": 525, "w": 85, "h": 115} }
+    }
+, "textbits_hl26":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_xacr_g_png}"
+                 , "geom": {"x": 550, "y": 600, "w": 110, "h": 65} }
+    }
+, "textbits_hl27":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_xcmpl_png}"
+                 , "geom": {"x": 531, "y": 671, "w": 272, "h": 104} }
+    }
+, "textbits_hl28":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_xpr_png}"
+                 , "geom": {"x": 406, "y": 30, "w": 175, "h": 135} }
+    }
+, "textbits_hl29":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_xbene2_png}"
+                 , "geom": {"x": 21, "y": 138, "w": 135, "h": 193} }
+    }
+, "textbits_hl30":
+    { "coimbra": null
+    , "lamego":  null
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_textbits_b1_textbits_decor_png}"
+                 , "geom": {"x": 79, "y": 341, "w": 650, "h": 644} }
+    }
+, "textmore_hl1":
+    { "coimbra": { "img":  "@{StaticR expo_img_textmore_ca_textmore_erit_png}"
+                 , "geom": {"x": 73, "y": 513, "w": 736, "h": 232} }
+    , "lamego":  { "img":  "@{StaticR expo_img_textmore_lo_textmore_iii_png}"
+                 , "geom": {"x": 399, "y": 34, "w": 230, "h": 335} }
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_arrow_180_png}"
+                 , "geom": {"x": 700, "y": 310, "w": 80, "h": 50} }
+    }
+, "textmore_hl2":
+    { "coimbra": { "img":  "@{StaticR expo_img_textmore_ca_textmore_ero_png}"
+                 , "geom": {"x": 68, "y": 32, "w": 566, "h": 274} }
+    , "lamego":  { "img":  "@{StaticR expo_img_textmore_lo_textmore_ul_ex_png}"
+                 , "geom": {"x": 380, "y": 680, "w": 140, "h": 90} }
+    , "leon":    null
+    , "madrid":  { "img":  "@{StaticR expo_img_arrow_180_png}"
+                 , "geom": {"x": 700, "y": 395, "w": 80, "h": 50} }
+    }
+, "textmore_hl3":
+    { "coimbra": null
+    , "lamego":  { "img":  "@{StaticR expo_img_useofms_lo_use_add1_old_png}"
+                 , "geom": {"x": 0, "y": 550, "w": 810, "h": 200} }
+    , "leon":    null
+    , "madrid":  null
+    }
+, "textmore_hl4":
+    { "coimbra": null
+    , "lamego":  { "img":  "@{StaticR expo_img_textmore_lo_textmore_ul_lau_png}"
+                 , "geom": {"x": 380, "y": 680, "w": 140, "h": 90} }
+    , "leon":    null
+    , "madrid":  null
+    }
+, "textmore_hl5":
+    { "coimbra": null
+    , "lamego":  { "img":  "@{StaticR expo_img_useofms_lo_use_add2_old_png}"
+                 , "geom": {"x": 0, "y": 550, "w": 810, "h": 200} }
+    , "leon":    null
+    , "madrid":  null
+    }
+, "textmore_hl6":
+    { "coimbra": null
+    , "lamego":  { "img":  "@{StaticR expo_img_useofms_lo_use_add2_new_png}"
+                 , "geom": {"x": 0, "y": 150, "w": 175, "h": 750} }
+    , "leon":    null
+    , "madrid":  null
+    }
+}
